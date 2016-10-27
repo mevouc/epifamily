@@ -1,11 +1,11 @@
-graph EpiFamily {
+digraph EpiFamily {
     // list of names
     mev [label="Meven Courouble"];
     cand [label="Candice Delaire"];
     seb [label="Sébastien Barbier"];
     anth [label="Anthony Mousset"];
     salo [label="Salomé Desauty"];
-    geof [label="Geoffrey Bossut];
+    geof [label="Geoffrey Bossut"];
     lucas [label="Lucas Mouminoux"];
     dana [label="Danaé Marmai"];
     cel [label="Céline Pierron"];
