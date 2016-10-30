@@ -1,7 +1,8 @@
 digraph EpiFamily {
     // list of names
     mev [label="Meven Courouble"];
-    cand [label="Candice Delaire"];
+    iwen [label="Iwen Gendrot"];
+	cand [label="Candice Delaire"];
     seb [label="Sébastien Barbier"];
     anth [label="Anthony Mousset"];
     salo [label="Salomé Desauty"];
@@ -19,8 +20,46 @@ digraph EpiFamily {
     flick [label="Louise Flick"];
     nic [label="Nicolas Moutaud"];
     nolw [label="Nolwenn Gentric"];
+	kenan [label="Kenan Lejosne"];
+	tertre [label="Manuel Tertre"];
+	mercier [label="Corentin Mercier"];
+	noailles [label="Louis Noailles"];
+	kluyt [label="Arthur Kluytmans"];
+	victoria [label="Victoria Krajcovicova"];
+	memeint [label="Nicolas Memeint"];
+	molter [label="Tristan Molter"];
+	rebut [label="Clément Rebut"];
+	tchan [label="Jérôme Tchan"];
+	vatble [label="Mathis Vatble"];
+	lasllo [label="Matthieu Lasllo"];
+	baudot [label="Valentin Baudot"];
+	cecilon [label="Florian Cecilon"];
+	shemtov [label="Nathan Shemtov"];
+	siou [label="Killian Siou"];
+	vanvoorder [label="Alexi Vandevoorde"];
+	rondier [label="Corentin Rondier""];
 
     // list of links
+	kenan -> tertre;
+	tertre -> mercier;
+	tertre -> noailles;
+	tertre -> kluyt;
+	tertre -> victoria;
+	tertre -> memeint;
+	tertre -> molter;
+	tertre -> rebut;
+	tertre -> tchan;
+	tertre -> vatble;
+	tertre -> lasllo;
+	tertre -> baudot;
+	tertre -> cecilon;
+	tertre -> shemtov;
+	tertre -> siou;
+	tertre -> vanvoorder;
+	tertre -> rondier;
+	dav -> flick;
+    dav -> nic;
+    dav -> nolw;
     mev -> cand;
     mev -> seb;
     mev -> anth;
@@ -33,7 +72,5 @@ digraph EpiFamily {
     ferd -> pier;
     ferd -> audr;
     ferd -> anais;
-    dav -> flick;
-    dav -> nic;
-    dav -> nolw;
+    
 }
