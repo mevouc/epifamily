@@ -50,7 +50,6 @@ digraph EpiFamily {
     laroche [label="Hugo\nLaroche"];
     fang [label="Clément\nFang"];
     horiot [label="Timothey Horiot"];
-    noailles [label="Louis\nNoailles"];
     sands [label="Jonathan\nSands"];
     pensivy [label="Yoann\nPensivy"];
     zabat [labe="Akram\nZabat"];
@@ -59,6 +58,27 @@ digraph EpiFamily {
     maunaury [label="Augustin\nMaunaury"];
     garreau [label="Juliette\nGarreau"];
     billy [label="Claire\nBilly"];
+    yang [label=" Antony\nYang"];
+    samy [label="Samy\nHussaein"];
+    vanvliet [label="Alex\van Vliet"];
+    tome [label="Tom-Elliot Herfay"];
+    pag [label="Pierre-Andre\nGirompaire"];
+    bossut [label="Alexandre\nBossut-Iasry"];
+    jean [label="Jean Verhaeghe"];
+    sabri [label="Sabri\nDounnez"];
+    verjus [label="Hugo\nVerjus"];
+    galbert [label="Tom\nGalbert"];
+    epie [label="Olivier\nEpié"];
+    goudout [label="Alice\nGoudout"];
+    jojo [label="Jonas\nBouaziz"];
+    bazille [label="Erwan\nBazille"];
+    goutard [label="Victor\nGoutard"];
+    blaise [label="Blaise\nCarnevillier"];
+    feng [label="Feng\nChung"];
+    tim [label="Timothe\nBarde"];
+    barre [label="Guillaume\nBarré"];
+    vilain [label="Marc\nVilain"];
+    meng [label="Sabrina\nMeng"];
 
     // list of links
     EpiFamily -> iwen;
@@ -67,6 +87,23 @@ digraph EpiFamily {
     EpiFamily -> font;
     EpiFamily -> hellec;
     EpiFamily -> kenan;
+    iwen -> pag;
+    iwen -> bossut;
+    iwen -> jean;
+    iwen -> sabri;
+    iwen -> verjus;
+    iwen -> galbert;
+    iwen -> epie;
+    iwen -> goudout;
+    iwen -> jojo;
+    iwen -> bazille;
+    iwen -> goutard;
+    iwen -> blaise;
+    iwen -> feng;
+    iwen -> tim;
+      tim -> vilain; //Tim's tree
+      tim -> meng;
+    iwen -> barre;
     iwen -> ferd;//Iwen's tree
       ferd -> moe;//Ferdinand's tree
       ferd -> pier;
@@ -76,12 +113,19 @@ digraph EpiFamily {
       doette -> maunaury; //Doette's tree
     iwen -> garreau;
       garreau -> billy; //Juliette's tree
+      garreau -> seb;
+      garreau -> kluyt;
+      garreau -> yang;
+
     dav -> flick;//David's tree
       flick -> noailles;//Louise's tree
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
+      flick -> samy;
+        samy -> vanvliet;
+        samy -> tome;
     dav -> nic;
     dav -> nolw;
     hellec -> hayard; //Hellec's tree
