@@ -49,10 +49,10 @@ digraph EpiFamily {
     gallois [label="Thomas\nGallois"];
     laroche [label="Hugo\nLaroche"];
     fang [label="Clément\nFang"];
-    horiot [label="Timothey Horiot"];
+    horiot [label="Timothey\nHoriot"];
     sands [label="Jonathan\nSands"];
     pensivy [label="Yoann\nPensivy"];
-    zabat [labe="Akram\nZabat"];
+    zabat [label="Akram\nZabat"];
     radic [label="Paul\nRadic"];
     doette [label="Doette\nBleton"];
     maunaury [label="Augustin\nMaunaury"];
@@ -60,11 +60,11 @@ digraph EpiFamily {
     billy [label="Claire\nBilly"];
     yang [label=" Antony\nYang"];
     samy [label="Samy\nHussaein"];
-    vanvliet [label="Alex\van Vliet"];
-    tome [label="Tom-Elliot Herfay"];
+    vanvliet [label="Alex\nvan Vliet"];
+    tome [label="Tom-Elliot\nHerfay"];
     pag [label="Pierre-Andre\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
-    jean [label="Jean Verhaeghe"];
+    jean [label="Jean\nVerhaeghe"];
     sabri [label="Sabri\nDounnez"];
     verjus [label="Hugo\nVerjus"];
     galbert [label="Tom\nGalbert"];
