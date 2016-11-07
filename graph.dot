@@ -38,38 +38,62 @@ digraph EpiFamily {
     siou [label="Killian\nSiou"];
     vanvoorder [label="Alexi\nVandevoorde"];
     rondier [label="Corentin\nRondier"];
+    hellec [label="Adrien\nHellec"];
+    hayard [label="Claire\nHayard"];
+    ruiz [label="Stephanie\nRuiz"];
+    hanot [label="Laura\nHanot"];
+    font [label="Quentin\nFontvielle"];
+    baggins [label="Léa\nFages"];
+    ph [label="Pierre-Hugo\nTrigan"];
+    griffhey [label="Bastien\nGriffhey"];
+    gallois [label="Thomas\nGallois"];
+    laroche [label="Hugo\nLaroche"];
+    fang [label="Clément\nFang"];
+    horiot [label="Timothey Horiot"];
 
     // list of links
-    kenan -> tertre;
-    tertre -> mercier;
-    tertre -> noailles;
-    tertre -> kluyt;
-    tertre -> victoria;
-    tertre -> memeint;
-    tertre -> molter;
-    tertre -> rebut;
-    tertre -> tchan;
-    tertre -> vatble;
-    tertre -> lasllo;
-    tertre -> baudot;
-    tertre -> cecilon;
-    tertre -> shemtov;
-    tertre -> siou;
-    tertre -> vanvoorder;
-    tertre -> rondier;
-    dav -> flick;
+    iwen -> ferd;//Iwen's tree
+      ferd -> moe;//Ferdinand's tree
+      ferd -> pier;
+      ferd -> audr;
+      ferd -> anais;
+    dav -> flick;//David's tree
     dav -> nic;
     dav -> nolw;
-    mev -> cand;
+    hellec -> hayard; //Hellec's tree
+    hellec -> ruiz;
+    hellec -> hanot;
+    font -> dana
+      dana -> cel;//Danae's tree
+      dana -> gaet;
+    font -> laroche;
+    font -> baggins;
+    font -> fang;
+    font -> horiot;
+    font -> ph;
+    font -> gallois;
+    font -> griffhey;
+    kenan -> tertre; //Kenan's tree
+      tertre -> mercier;//Tertre's tree
+      tertre -> noailles;
+      tertre -> kluyt;
+      tertre -> victoria;
+      tertre -> memeint;
+      tertre -> molter;
+      tertre -> rebut;
+      tertre -> tchan;
+      tertre -> vatble;
+      tertre -> lasllo;
+      tertre -> baudot;
+      tertre -> cecilon;
+      tertre -> shemtov;
+      tertre -> siou;
+      tertre -> vanvoorder;
+      tertre -> rondier;
+    mev -> cand; //Meven's tree
     mev -> seb;
     mev -> anth;
     mev -> salo;
     mev -> geof;
     mev -> lucas;
-    dana -> cel;
-    dana -> gaet;
-    ferd -> moe;
-    ferd -> pier;
-    ferd -> audr;
-    ferd -> anais;
-}
+    }
