@@ -50,14 +50,38 @@ digraph EpiFamily {
     laroche [label="Hugo\nLaroche"];
     fang [label="Clément\nFang"];
     horiot [label="Timothey Horiot"];
+    noailles [label="Louis\nNoailles"];
+    sands [label="Jonathan\nSands"];
+    pensivy [label="Yoann\nPensivy"];
+    zabat [labe="Akram\nZabat"];
+    radic [label="Paul\nRadic"];
+    doette [label="Doette\nBleton"];
+    maunaury [label="Augustin\nMaunaury"];
+    garreau [label="Juliette\nGarreau"];
+    billy [label="Claire\nBilly"];
 
     // list of links
+    EpiFamily -> iwen;
+    EpiFamily -> mev;
+    EpiFamily -> dav;
+    EpiFamily -> font;
+    EpiFamily -> hellec;
+    EpiFamily -> kenan;
     iwen -> ferd;//Iwen's tree
       ferd -> moe;//Ferdinand's tree
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
+    iwen -> doette;
+      doette -> maunaury; //Doette's tree
+    iwen -> garreau;
+      garreau -> billy; //Juliette's tree
     dav -> flick;//David's tree
+      flick -> noailles;//Louise's tree
+      flick -> sands;
+      flick -> pensivy;
+      flick -> zabat;
+      flick -> radic;
     dav -> nic;
     dav -> nolw;
     hellec -> hayard; //Hellec's tree
@@ -91,6 +115,7 @@ digraph EpiFamily {
       tertre -> vanvoorder;
       tertre -> rondier;
     mev -> cand; //Meven's tree
+      cand -> billy;//Candice'stree
     mev -> seb;
     mev -> anth;
     mev -> salo;
