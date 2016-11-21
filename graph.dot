@@ -49,10 +49,10 @@ digraph EpiFamily {
     gallois [label="Thomas\nGallois"];
     laroche [label="Hugo\nLaroche"];
     fang [label="Clément\nFang"];
-    horiot [label="Timothey\nHoriot"];
+    horiot [label="Timothey Horiot"];
     sands [label="Jonathan\nSands"];
     pensivy [label="Yoann\nPensivy"];
-    zabat [label="Akram\nZabat"];
+    zabat [labe="Akram\nZabat"];
     radic [label="Paul\nRadic"];
     doette [label="Doette\nBleton"];
     maunaury [label="Augustin\nMaunaury"];
@@ -60,7 +60,7 @@ digraph EpiFamily {
     billy [label="Claire\nBilly"];
     yang [label=" Antony\nYang"];
     samy [label="Samy\nHussaein"];
-    vanvliet [label="Alex\nvan Vliet"];
+    vanvliet [label="Alex\nvanVliet"];
     tome [label="Tom-Elliot\nHerfay"];
     pag [label="Pierre-Andre\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
@@ -79,6 +79,8 @@ digraph EpiFamily {
     barre [label="Guillaume\nBarré"];
     vilain [label="Marc\nVilain"];
     meng [label="Sabrina\nMeng"];
+    pham [label="Alicia\nPham"];
+    schloesing [label="Romain Schloesing"];
 
     // list of links
     EpiFamily -> iwen;
@@ -104,11 +106,14 @@ digraph EpiFamily {
       tim -> vilain; //Tim's tree
       tim -> meng;
     iwen -> barre;
+      barre -> pham;
+      barre -> schloesing;
     iwen -> ferd;//Iwen's tree
       ferd -> moe;//Ferdinand's tree
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
+    iwen -> moe
     iwen -> doette;
       doette -> maunaury; //Doette's tree
     iwen -> garreau;
@@ -126,6 +131,7 @@ digraph EpiFamily {
       flick -> samy;
         samy -> vanvliet;
         samy -> tome;
+    dav -> moe;
     dav -> nic;
     dav -> nolw;
     hellec -> hayard; //Hellec's tree
@@ -141,6 +147,7 @@ digraph EpiFamily {
     font -> ph;
     font -> gallois;
     font -> griffhey;
+    kenan -> moe;
     kenan -> tertre; //Kenan's tree
       tertre -> mercier;//Tertre's tree
       tertre -> noailles;
@@ -158,6 +165,7 @@ digraph EpiFamily {
       tertre -> siou;
       tertre -> vanvoorder;
       tertre -> rondier;
+    mev -> moe;
     mev -> cand; //Meven's tree
       cand -> billy;//Candice'stree
     mev -> seb;
