@@ -12,7 +12,7 @@ digraph EpiFamily {
     cel [label="Céline\nPierron"];
     gaet [label="Gaetan\nPusel"];
     ferd [label="Ferdinand\nLemaire"];
-    moe [label="Moe\nFierin"];
+    moe [label="Moemoea\nFierin"];
     pier [label="Pierre\nGastanaga"];
     audr [label="Audrand\nDoublet"];
     anais [label="Anaïs\nDurand"];
@@ -52,7 +52,7 @@ digraph EpiFamily {
     horiot [label="Timothey Horiot"];
     sands [label="Jonathan\nSands"];
     pensivy [label="Yoann\nPensivy"];
-    zabat [labe="Akram\nZabat"];
+    zabat [label="Akram\nZabat"];
     radic [label="Paul\nRadic"];
     doette [label="Doette\nBleton"];
     maunaury [label="Augustin\nMaunaury"];
@@ -60,7 +60,7 @@ digraph EpiFamily {
     billy [label="Claire\nBilly"];
     yang [label=" Antony\nYang"];
     samy [label="Samy\nHussaein"];
-    vanvliet [label="Alex\nvanVliet"];
+    vanvliet [label="Alex\nVan-Vliet"];
     tome [label="Tom-Elliot\nHerfay"];
     pag [label="Pierre-Andre\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
@@ -80,15 +80,11 @@ digraph EpiFamily {
     vilain [label="Marc\nVilain"];
     meng [label="Sabrina\nMeng"];
     pham [label="Alicia\nPham"];
-    schloesing [label="Romain Schloesing"];
+    schloesing [label="Romain\nSchloesing"];
 
     // list of links
-    EpiFamily -> iwen;
-    EpiFamily -> mev;
-    EpiFamily -> dav;
-    EpiFamily -> font;
-    EpiFamily -> hellec;
-    EpiFamily -> kenan;
+
+    // Iwen's tree
     iwen -> pag;
     iwen -> bossut;
     iwen -> jean;
@@ -103,27 +99,33 @@ digraph EpiFamily {
     iwen -> blaise;
     iwen -> feng;
     iwen -> tim;
-      tim -> vilain; //Tim's tree
+    //Tim's tree
+      tim -> vilain;
       tim -> meng;
     iwen -> barre;
       barre -> pham;
       barre -> schloesing;
-    iwen -> ferd;//Iwen's tree
-      ferd -> moe;//Ferdinand's tree
+    iwen -> ferd;
+      // Ferdinand's tree
+      ferd -> moe;
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
     iwen -> moe
     iwen -> doette;
-      doette -> maunaury; //Doette's tree
+      // Doette's tree
+      doette -> maunaury;
     iwen -> garreau;
-      garreau -> billy; //Juliette's tree
+      // Juliette's tree
+      garreau -> billy;
       garreau -> seb;
       garreau -> kluyt;
       garreau -> yang;
 
-    dav -> flick;//David's tree
-      flick -> noailles;//Louise's tree
+    // David's tree
+    dav -> flick;
+      // Louise's tree
+      flick -> noailles;
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
@@ -134,11 +136,13 @@ digraph EpiFamily {
     dav -> moe;
     dav -> nic;
     dav -> nolw;
-    hellec -> hayard; //Hellec's tree
+    // Hellec's tree
+    hellec -> hayard;
     hellec -> ruiz;
     hellec -> hanot;
     font -> dana
-      dana -> cel;//Danae's tree
+      // Danae's tree
+      dana -> cel;
       dana -> gaet;
     font -> laroche;
     font -> baggins;
@@ -147,9 +151,11 @@ digraph EpiFamily {
     font -> ph;
     font -> gallois;
     font -> griffhey;
+    // Kenan's tree
     kenan -> moe;
-    kenan -> tertre; //Kenan's tree
-      tertre -> mercier;//Tertre's tree
+    kenan -> tertre;
+      // Tertre's tree
+      tertre -> mercier;
       tertre -> noailles;
       tertre -> kluyt;
       tertre -> victoria;
@@ -165,12 +171,14 @@ digraph EpiFamily {
       tertre -> siou;
       tertre -> vanvoorder;
       tertre -> rondier;
-    mev -> moe;
-    mev -> cand; //Meven's tree
-      cand -> billy;//Candice'stree
+    // Meven's tree
+    mev -> cand;
+      // Candice's tree
+      cand -> billy;
     mev -> seb;
     mev -> anth;
     mev -> salo;
     mev -> geof;
     mev -> lucas;
-    }
+    mev -> moe;
+}
