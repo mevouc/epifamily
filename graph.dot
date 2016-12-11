@@ -82,6 +82,7 @@ digraph EpiFamily {
     pham [label="Alicia\nPham"];
     schloesing [label="Romain\nSchloesing"];
     skler [label="Julien\nSkler"];
+    rosiek [label ="Hugo\nRosiek"];
 
     // list of links
 
@@ -138,6 +139,7 @@ digraph EpiFamily {
     dav -> nic;
     dav -> nolw;
     dav -> skler;
+      skelr -> rosiekl;
     // Hellec's tree
     hellec -> hayard;
     hellec -> ruiz;
