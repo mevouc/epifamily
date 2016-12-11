@@ -135,11 +135,11 @@ digraph EpiFamily {
       flick -> samy;
         samy -> vanvliet;
         samy -> tome;
-    dav -> moe;
+   dav -> moe;
     dav -> nic;
     dav -> nolw;
     dav -> skler;
-      skelr -> rosiekl;
+      skler -> rosiek;
     // Hellec's tree
     hellec -> hayard;
     hellec -> ruiz;
