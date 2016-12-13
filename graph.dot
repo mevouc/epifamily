@@ -83,7 +83,8 @@ digraph EpiFamily {
     schloesing [label="Romain\nSchloesing"];
     skler [label="Julien\nSkler"];
     rosiek [label ="Hugo\nRosiek"];
-
+    vhenry [label ="Valentin\nHenry"];
+    malasse [label ="Juliette\nMalasse"];
     // list of links
 
     // Iwen's tree
@@ -155,8 +156,10 @@ digraph EpiFamily {
     font -> ph;
     font -> gallois;
     font -> griffhey;
+    font -> vhenry;
     // Kenan's tree
     kenan -> moe;
+    kenan -> malasse;
     kenan -> tertre;
       // Tertre's tree
       tertre -> mercier;
