@@ -61,7 +61,7 @@ digraph EpiFamily {
     yang [label=" Antony\nYang"];
     samy [label="Samy\nHussaein"];
     vanvliet [label="Alex\nVan-Vliet"];
-    tome [label="Tom-Elliot\nHerfay"];
+    tome [label="Tom-Eliott\nHerfray"];
     pag [label="Pierre-Andre\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
     jean [label="Jean\nVerhaeghe"];
