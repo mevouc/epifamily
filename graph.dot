@@ -87,6 +87,7 @@ digraph EpiFamily {
     malasse [label ="Juliette\nMalassé"];
     govys [label ="Thomas\nGovys"];
     roubeau [label="Maëlle\nRoubeau"];
+    satan [label="Fabien\nTessier"];
     // list of links
 
     // Iwen's tree
