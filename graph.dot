@@ -84,7 +84,9 @@ digraph EpiFamily {
     skler [label="Julien\nSkler"];
     rosiek [label ="Hugo\nRosiek"];
     vhenry [label ="Valentin\nHenry"];
-    malasse [label ="Juliette\nMalasse"];
+    malasse [label ="Juliette\nMalassé"];
+    govys [label ="Thomas\nGovys"];
+    roubeau [label="Maëlle\nRoubeau"];
     // list of links
 
     // Iwen's tree
@@ -141,6 +143,8 @@ digraph EpiFamily {
     dav -> nolw;
     dav -> skler;
       skler -> rosiek;
+      skler -> govys;
+        govys -> roubeau;
     // Hellec's tree
     hellec -> hayard;
     hellec -> ruiz;
