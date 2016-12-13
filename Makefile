@@ -1,8 +1,11 @@
-IMG=family.png
-IN=graph.dot
+CC = neato
+ATTRS = -Goverlap=false -Gsplines=true
+
+IN = graph.dot
+IMG = family.png
 
 all:
-	neato -Tpng -Goverlap=false $(IN) -o $(IMG)
+	$(CC) -Tpng $(ATTRS) $(IN) -o $(IMG)
 
 view: all
 	feh -Z -F $(IMG)
