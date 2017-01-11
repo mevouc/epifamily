@@ -88,8 +88,9 @@ digraph EpiFamily {
     govys [label ="Thomas\nGovys"];
     roubeau [label="Maëlle\nRoubeau"];
     satan [label="Fabien\nTessier"];
+    mahamad [label="Axel\nJan Mahamad"];
+    nalbandian [label="Samy\nNalbandian"];
     // list of links
-
     // Iwen's tree
     iwen -> pag;
     iwen -> bossut;
@@ -145,7 +146,6 @@ digraph EpiFamily {
     dav -> skler;
       skler -> rosiek;
       skler -> govys;
-        govys -> roubeau;
     // Hellec's tree
     hellec -> hayard;
     hellec -> ruiz;
@@ -166,6 +166,7 @@ digraph EpiFamily {
     kenan -> moe;
     kenan -> malasse;
     kenan -> tertre;
+    kenan -> roubeau;
       // Tertre's tree
       tertre -> mercier;
       tertre -> noailles;
@@ -188,9 +189,12 @@ digraph EpiFamily {
       // Candice's tree
       cand -> billy;
     mev -> seb;
+      seb -> mahamad;
+      seb -> nalbandian;
     mev -> anth;
     mev -> salo;
     mev -> geof;
     mev -> lucas;
     mev -> moe;
+    satan;
 }
