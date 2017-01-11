@@ -151,6 +151,7 @@ digraph EpiFamily {
     dav -> skler;
       skler -> rosiek;
       skler -> govys;
+        govys -> roubeau;
     // Hellec's tree
     hellec -> hayard;
     hellec -> ruiz;
