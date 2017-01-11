@@ -88,6 +88,10 @@ digraph EpiFamily {
     govys [label ="Thomas\nGovys"];
     roubeau [label="Maëlle\nRoubeau"];
     satan [label="Fabien\nTessier"];
+    mahamad [label = "Axel\nJan Mahamad"];
+    tristan [label = "Tristan\nMartin"];
+    hu [label = "Vincent\nHu"];
+
     // list of links
 
     // Iwen's tree
@@ -157,6 +161,8 @@ digraph EpiFamily {
     font -> laroche;
     font -> baggins;
     font -> fang;
+      fang -> hu;
+      fang -> tristan;
     font -> horiot;
     font -> ph;
     font -> gallois;
@@ -188,6 +194,7 @@ digraph EpiFamily {
       // Candice's tree
       cand -> billy;
     mev -> seb;
+      seb -> mahamad;
     mev -> anth;
     mev -> salo;
     mev -> geof;
