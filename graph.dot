@@ -10,7 +10,7 @@ digraph EpiFamily {
     lucas [label="Lucas\nMouminoux"];
     dana [label="Danaé\nMarmai"];
     cel [label="Céline\nPierron"];
-    gaet [label="Gaetan\nPusel"];
+    gaet [label="Gaëtan\nPusel"];
     ferd [label="Ferdinand\nLemaire"];
     moe [label="Moemoea\nFierin"];
     pier [label="Pierre\nGastanaga"];
@@ -62,7 +62,7 @@ digraph EpiFamily {
     samy [label="Samy\nHussaein"];
     vanvliet [label="Alex\nVan-Vliet"];
     tome [label="Tom-Eliott\nHerfray"];
-    pag [label="Pierre-Andre\nGirompaire"];
+    pag [label="Pierre-André\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
     jean [label="Jean\nVerhaeghe"];
     sabri [label="Sabri\nDounnez"];
@@ -75,9 +75,9 @@ digraph EpiFamily {
     goutard [label="Victor\nGoutard"];
     blaise [label="Blaise\nCarnevillier"];
     feng [label="Feng\nChung"];
-    tim [label="Timothe\nBarde"];
+    tim [label="Timothee\nBarde"];
     barre [label="Guillaume\nBarré"];
-    vilain [label="Marc\nVilain"];
+    villain [label="Marc\nVillain"];
     meng [label="Sabrina\nMeng"];
     pham [label="Alicia\nPham"];
     schloesing [label="Romain\nSchloesing"];
@@ -90,7 +90,12 @@ digraph EpiFamily {
     satan [label="Fabien\nTessier"];
     mahamad [label="Axel\nJan Mahamad"];
     nalbandian [label="Samy\nNalbandian"];
-    // list of links
+
+
+    /*
+    ** List of patronage links
+    */
+
     // Iwen's tree
     iwen -> pag;
     iwen -> bossut;
@@ -107,7 +112,7 @@ digraph EpiFamily {
     iwen -> feng;
     iwen -> tim;
     //Tim's tree
-      tim -> vilain;
+      tim -> villain;
       tim -> meng;
     iwen -> barre;
       barre -> pham;
@@ -196,5 +201,15 @@ digraph EpiFamily {
     mev -> geof;
     mev -> lucas;
     mev -> moe;
-    satan;
+
+
+    /*
+    ** List of special links
+    */
+
+    // love links, please use [dir=none color="hotpink"] attribute
+    satan -> moe [dir=none color="hotpink"];
+    kenan -> roubeau [dir=none color="hotpink"]; 
+    dav -> baggins [dir=none color="hotpink"]; 
+    feng -> barre [dir=none color="hotpink"]; 
 }
