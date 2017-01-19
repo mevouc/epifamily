@@ -88,6 +88,7 @@ digraph EpiFamily {
     govys [label ="Thomas\nGovys"];
     roubeau [label="Maëlle\nRoubeau"];
     satan [label="Fabien\nTessier"];
+    pat [label="Pierre-Emmanuel\nPatry"];
 <<<<<<< HEAD
     mahamad [label = "Axel\nJan Mahamad"];
     tristan [label = "Tristan\nMartin"];
@@ -122,6 +123,7 @@ digraph EpiFamily {
     //Tim's tree
       tim -> villain;
       tim -> meng;
+      tim -> pat;
     iwen -> barre;
       barre -> pham;
       barre -> schloesing;
