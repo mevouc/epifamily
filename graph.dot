@@ -89,13 +89,9 @@ digraph EpiFamily {
     roubeau [label="Maëlle\nRoubeau"];
     satan [label="Fabien\nTessier"];
     pat [label="Pierre-Emmanuel\nPatry"];
-<<<<<<< HEAD
     mahamad [label = "Axel\nJan Mahamad"];
     tristan [label = "Tristan\nMartin"];
     hu [label = "Vincent\nHu"];
-
-    // list of links
-=======
     mahamad [label="Axel\nJan Mahamad"];
     nalbandian [label="Samy\nNalbandian"];
 
@@ -103,7 +99,6 @@ digraph EpiFamily {
     /*
     ** List of patronage links
     */
->>>>>>> 54427a2eb83939a42fdd422cadc15859f9d8fc84
 
     // Iwen's tree
     iwen -> pag;
@@ -208,10 +203,7 @@ digraph EpiFamily {
       cand -> billy;
     mev -> seb;
       seb -> mahamad;
-<<<<<<< HEAD
-=======
       seb -> nalbandian;
->>>>>>> 54427a2eb83939a42fdd422cadc15859f9d8fc84
     mev -> anth;
     mev -> salo;
     mev -> geof;
@@ -225,7 +217,7 @@ digraph EpiFamily {
 
     // love links, please use [dir=none color="hotpink"] attribute
     satan -> moe [dir=none color="hotpink"];
-    kenan -> roubeau [dir=none color="hotpink"]; 
-    dav -> baggins [dir=none color="hotpink"]; 
-    feng -> barre [dir=none color="hotpink"]; 
+    kenan -> roubeau [dir=none color="hotpink"];
+    dav -> baggins [dir=none color="hotpink"];
+    feng -> barre [dir=none color="hotpink"];
 }
