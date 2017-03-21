@@ -94,7 +94,9 @@ digraph EpiFamily {
     hu [label = "Vincent\nHu"];
     mahamad [label="Axel\nJan Mahamad"];
     nalbandian [label="Samy\nNalbandian"];
-
+    donia [label="Donia\nLajnef"];
+    falcoz [label="Gauthier\nFalcoz"];
+    degroote [label="Theau\nDegroote"];
 
     /*
     ** List of patronage links
@@ -128,6 +130,9 @@ digraph EpiFamily {
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
+      ferd -> falcoz;
+      ferd -> degroote;
+
     iwen -> moe
     iwen -> doette;
       // Doette's tree
@@ -177,6 +182,7 @@ digraph EpiFamily {
     font -> vhenry;
     // Kenan's tree
     kenan -> moe;
+    kenan -> donia;
     kenan -> malasse;
     kenan -> tertre;
     kenan -> roubeau;
