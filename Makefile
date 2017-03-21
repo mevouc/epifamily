@@ -1,4 +1,4 @@
-CC = neato
+CC = sfdp
 ATTRS = -Goverlap=false -Gsplines=true
 
 IN = graph.dot
