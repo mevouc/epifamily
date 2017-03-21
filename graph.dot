@@ -14,7 +14,7 @@ digraph EpiFamily {
     ferd [label="Ferdinand\nLemaire"];
     moe [label="Moemoea\nFierin"];
     pier [label="Pierre\nGastanaga"];
-    audr [label="Audrand\nDoublet"];
+    audr [label="Audran\nDoublet"];
     anais [label="Anaïs\nDurand"];
     dav [label="David\nLespine"];
     flick [label="Louise\nFlick"];
