@@ -97,7 +97,7 @@ digraph EpiFamily {
     donia [label="Donia\nLajnef"];
     falcoz [label="Gauthier\nFalcoz"];
     degroote [label="Theau\nDegroote"];
-
+    pascal [label="Marianne\nPascal"];
     /*
     ** List of patronage links
     */
@@ -203,6 +203,7 @@ digraph EpiFamily {
       tertre -> siou;
       tertre -> vanvoorder;
       tertre -> rondier;
+      tertre -> pascal;
     // Meven's tree
     mev -> cand;
       // Candice's tree
@@ -210,6 +211,7 @@ digraph EpiFamily {
     mev -> seb;
       seb -> mahamad;
       seb -> nalbandian;
+      seb -> maunaury;
     mev -> anth;
     mev -> salo;
     mev -> geof;
