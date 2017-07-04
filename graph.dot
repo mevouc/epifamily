@@ -98,11 +98,12 @@ digraph EpiFamily {
     falcoz [label="Gauthier\nFalcoz"];
     degroote [label="Theau\nDegroote"];
     pascal [label="Marianne\nPascal"];
+    navarro [label="Hadrien\nNavarro"];
     /*
     ** List of patronage links
     */
 
-    // Iwen's tree
+    // Iwen's graph
     iwen -> pag;
     iwen -> bossut;
     iwen -> jean;
@@ -117,62 +118,71 @@ digraph EpiFamily {
     iwen -> blaise;
     iwen -> feng;
     iwen -> tim;
-    //Tim's tree
+    //Tim's graph
       tim -> villain;
       tim -> meng;
       tim -> pat;
     iwen -> barre;
+    //Guillaume's graph
       barre -> pham;
       barre -> schloesing;
-    iwen -> ferd;
-      // Ferdinand's tree
+    iwen -> ferd
+      // Ferdinand's graph
       ferd -> moe;
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
       ferd -> falcoz;
       ferd -> degroote;
-
     iwen -> moe
     iwen -> doette;
-      // Doette's tree
+      // Doette's graph
       doette -> maunaury;
     iwen -> garreau;
-      // Juliette's tree
+      // Juliette's graph
       garreau -> billy;
       garreau -> seb;
       garreau -> kluyt;
       garreau -> yang;
+    iwen -> navarro
 
-    // David's tree
+    // David's graph
     dav -> flick;
-      // Louise's tree
+      // Louise's graph
       flick -> noailles;
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
       flick -> samy;
+      // Samy's graph
         samy -> vanvliet;
         samy -> tome;
    dav -> moe;
-    dav -> nic;
-    dav -> nolw;
-    dav -> skler;
-      skler -> rosiek;
-      skler -> govys;
+   dav -> nic;
+   dav -> nolw;
+   dav -> skler;
+   //Julien's graph
+    skler -> rosiek;
+    skler -> govys;
+    //Thomas's graph
         govys -> roubeau;
-    // Hellec's tree
+        
+        
+    // Adrien's graph
     hellec -> hayard;
     hellec -> ruiz;
     hellec -> hanot;
+    
+    //Quentin's graph
     font -> dana
-      // Danae's tree
+      // Danae's graph
       dana -> cel;
       dana -> gaet;
     font -> laroche;
     font -> baggins;
     font -> fang;
+    //Clément's graph
       fang -> hu;
       fang -> tristan;
     font -> horiot;
@@ -180,13 +190,15 @@ digraph EpiFamily {
     font -> gallois;
     font -> griffhey;
     font -> vhenry;
-    // Kenan's tree
+    
+    
+    // Kenan's graph
     kenan -> moe;
     kenan -> donia;
     kenan -> malasse;
-    kenan -> tertre;
     kenan -> roubeau;
-      // Tertre's tree
+    kenan -> tertre;
+    // Tertre's graph
       tertre -> mercier;
       tertre -> noailles;
       tertre -> kluyt;
@@ -204,9 +216,11 @@ digraph EpiFamily {
       tertre -> vanvoorder;
       tertre -> rondier;
       tertre -> pascal;
-    // Meven's tree
+      
+      
+    // Meven's graph
     mev -> cand;
-      // Candice's tree
+      // Candice's graph
       cand -> billy;
     mev -> seb;
       seb -> mahamad;
