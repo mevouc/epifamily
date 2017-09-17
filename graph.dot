@@ -106,15 +106,16 @@ digraph EpiFamily {
     nora [label="Nora\nDelfau"];
     apluquet [label="Adèle\nPluquet"];
     charra [label="Marine\nCharra"];
-    ichaumont [label="Imane\Chaumont"];
+    ichaumont [label="Imane\nChaumont"];
     dmadro [label="Damien\nMadro"];
     bamar [label="Benjamin\nAmar"];
-    tz [label="Yohan\nTz"];
+    tz [label="Yohan\nTancrez"];
     zeitoun [label="Jérémie\nZeitoun"];
     ripoll [label="Thomas\nRipoll"];
     manceau [label="Aurélien\nManceau"];
     jrange [label="Jules\nRange"];
     ikhemir [label="Ines\nKhemir"];
+    souillac [label="Hugo\nSouillac"];
     
     
     /*
@@ -180,6 +181,7 @@ digraph EpiFamily {
         noailles -> ripoll;
         noailles -> manceau;
         noailles -> acharles
+        noailles -> souillac;
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
