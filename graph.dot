@@ -99,7 +99,7 @@ digraph EpiFamily {
     degroote [label="Theau\nDegroote"];
     pascal [label="Marianne\nPascal"];
     navarro [label="Hadrien\nNavarro"];
-    ijiyaru [label="Hakim\nJiyari"];
+    jiyaru [label="Hakim\nJiyari"];
     gardebois [label="Jeanne\nGardebois"];
     ruter [label="Trista\nRuter-Naon"];
     acharles [label="Ambre\nCharles"];
@@ -179,6 +179,7 @@ digraph EpiFamily {
         noailles -> zeitoun;
         noailles -> ripoll;
         noailles -> manceau;
+        noailles -> acharles
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
