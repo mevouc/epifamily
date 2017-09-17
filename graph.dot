@@ -99,7 +99,7 @@ digraph EpiFamily {
     degroote [label="Theau\nDegroote"];
     pascal [label="Marianne\nPascal"];
     navarro [label="Hadrien\nNavarro"];
-    jiyaru [label="Hakim\nJiyari"];
+    jiyari [label="Hakim\nJiyari"];
     gardebois [label="Jeanne\nGardebois"];
     ruter [label="Trista\nRuter-Naon"];
     acharles [label="Ambre\nCharles"];
