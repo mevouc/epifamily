@@ -99,11 +99,32 @@ digraph EpiFamily {
     degroote [label="Theau\nDegroote"];
     pascal [label="Marianne\nPascal"];
     navarro [label="Hadrien\nNavarro"];
+    ijiyaru [label="Hakim\nJiyari"];
+    gardebois [label="Jeanne\nGardebois"];
+    ruter [label="Trista\nRuter-Naon"];
+    acharles [label="Ambre\nCharles"];
+    nora [label="Nora\nDelfau"];
+    apluquet [label="Adèle\nPluquet"];
+    charra [label="Marine\nCharra"];
+    ichaumont [label="Imane\Chaumont"];
+    dmadro [label="Damien\nMadro"];
+    bamar [label="Benjamin\nAmar"];
+    tz [label="Yohan\nTz"];
+    zeitoun [label="Jérémie\nZeitoun"];
+    ripoll [label="Thomas\nRipoll"];
+    manceau [label="Aurélien\nManceau"];
+    jrange [label="Jules\nRange"];
+    ikhemir [label="Ines\nKhemir"];
+    
+    
     /*
     ** List of patronage links
     */
 
     // Iwen's graph
+    iwen -> ruter [dir=none color="gold"];
+    iwen -> ikhemir;
+    iwen -> gardebois;
     iwen -> pag;
     iwen -> bossut;
     iwen -> jean;
@@ -150,10 +171,22 @@ digraph EpiFamily {
     dav -> flick;
       // Louise's graph
       flick -> noailles;
+        //Louis Noailles's graph
+        noailles -> jiyari;            
+        noailles -> ichaumont;
+        noailles -> dmadro;
+        noailles -> bamar;
+        noailles -> tz;
+        noailles -> zeitoun;
+        noailles -> ripoll;
+        noailles -> manceau;
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
+        //Radic
+        radic -> souillac;
+        radic -> jrange;
       flick -> samy;
       // Samy's graph
         samy -> vanvliet;
@@ -197,6 +230,9 @@ digraph EpiFamily {
     kenan -> donia;
     kenan -> malasse;
     kenan -> roubeau;
+    kenan -> charra;
+    kenan -> apluquet
+    kenan -> nora;
     kenan -> tertre;
     // Tertre's graph
       tertre -> mercier;
