@@ -155,7 +155,6 @@ digraph EpiFamily {
       ferd -> anais;
       ferd -> falcoz;
       ferd -> degroote;
-    iwen -> moe
     iwen -> doette;
       // Doette's graph
       doette -> maunaury;
@@ -165,7 +164,7 @@ digraph EpiFamily {
       garreau -> seb;
       garreau -> kluyt;
       garreau -> yang;
-    iwen -> navarro
+    iwen -> navarro;
 
     // David's graph
     dav -> flick;
@@ -231,7 +230,7 @@ digraph EpiFamily {
     kenan -> malasse;
     kenan -> roubeau;
     kenan -> charra;
-    kenan -> apluquet
+    kenan -> apluquet;
     kenan -> nora;
     kenan -> tertre;
     // Tertre's graph
