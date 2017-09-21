@@ -259,7 +259,7 @@ digraph EpiFamily {
       tertre -> cecilon;
       tertre -> shemtov;
       tertre -> siou;
-      tertre -> vanvoorderi;
+      tertre -> vanvoorder;
       // Vandevoorde's graph
         vanvoorder -> bibas;
         vanvoorder -> houve;
