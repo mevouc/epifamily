@@ -116,7 +116,12 @@ digraph EpiFamily {
     jrange [label="Jules\nRange"];
     ikhemir [label="Ines\nKhemir"];
     souillac [label="Hugo\nSouillac"];
-    
+    bibas [label="Jonathan\nBibas"];
+    houve [label="Juliette\nHouvenaghel"];
+    belley [label="César\nBelley"];
+    attie [label="Mahé\nAttié"];
+    barbarat [label="Quentin\nBarbarat"];
+    lacombe [label="Cloé\nLacombe"];
     
     /*
     ** List of patronage links
@@ -182,6 +187,7 @@ digraph EpiFamily {
         noailles -> manceau;
         noailles -> acharles
         noailles -> souillac;
+        noailles -> lacombe;
       flick -> sands;
       flick -> pensivy;
       flick -> zabat;
@@ -201,7 +207,9 @@ digraph EpiFamily {
     skler -> rosiek;
     skler -> govys;
     //Thomas's graph
-        govys -> roubeau;
+      govys -> roubeau;
+      //Maelle's graph
+        roubeau -> belley;
         
         
     // Adrien's graph
@@ -252,8 +260,14 @@ digraph EpiFamily {
       tertre -> shemtov;
       tertre -> siou;
       tertre -> vanvoorder;
+      // Vandevoorde's graph
+        vanvoorder -> bibas;
+        vanvoorder -> houve;
       tertre -> rondier;
       tertre -> pascal;
+    kenan -> attie;
+    kenan -> barbarat;
+
       
       
     // Meven's graph
