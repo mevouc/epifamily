@@ -128,7 +128,7 @@ digraph EpiFamily {
     */
 
     // Iwen's graph
-    iwen -> ruter [dir=none color="gold"];
+    iwen -> ruter [color="gold"];
     iwen -> ikhemir;
     iwen -> gardebois;
     iwen -> pag;
