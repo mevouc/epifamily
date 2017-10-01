@@ -122,7 +122,21 @@ digraph EpiFamily {
     attie [label="Mahé\nAttié"];
     barbarat [label="Quentin\nBarbarat"];
     lacombe [label="Cloé\nLacombe"];
-    
+    cgorgeon [label="Clément\nGeorgon"];
+    lcardao [label="Léo\Cardão"];
+    mlecomte [label="Malo\nLecomte"];
+    mhan [label="Maya\nHan"];
+    mschoose [label="Merlin\nSchoose"];
+    pmade [label="Pierrick\nMade"];
+    tlepage [label="Théo\nLepage"];
+    vhacquard [label="Victor\nHacquard"];
+    vthiron [label="Valentin\nThiron"];
+    othmane [label="Othmane\nEssakhi"];
+    mferdinand [label="Mom\nFerdinand"];
+    mgemayel [label="Maya\nGemayel"];
+    zlayadi [label="Ziane\nLayadi"];
+    qrondel [label="Quentin\nRondel"];
+
     /*
     ** List of patronage links
     */
@@ -169,6 +183,16 @@ digraph EpiFamily {
       garreau -> billy;
       garreau -> seb;
       garreau -> kluyt;
+      //Arthur Kluytmans's graph
+        kluyt -> cgorgeon;
+        kluyt -> lcardao;
+        kluyt -> mlecomte;
+        kluyt -> mhan;
+        kluyt -> mschoose;
+        kluyt -> pmade;
+        kluyt -> tlepage;
+        kluyt -> vhacquard;
+        kluyt -> vthiron;
       garreau -> yang;
     iwen -> navarro;
 
@@ -177,7 +201,7 @@ digraph EpiFamily {
       // Louise's graph
       flick -> noailles;
         //Louis Noailles's graph
-        noailles -> jiyari;            
+        noailles -> jiyari;
         noailles -> ichaumont;
         noailles -> dmadro;
         noailles -> bamar;
@@ -188,13 +212,16 @@ digraph EpiFamily {
         noailles -> acharles
         noailles -> souillac;
         noailles -> lacombe;
+        noailles -> qrondel;
       flick -> sands;
+        sands -> zlayadi;
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
         //Radic
         radic -> souillac;
         radic -> jrange;
+        radic -> zlayadi;
       flick -> samy;
       // Samy's graph
         samy -> vanvliet;
@@ -210,13 +237,16 @@ digraph EpiFamily {
       govys -> roubeau;
       //Maelle's graph
         roubeau -> belley;
-        
-        
+
+
     // Adrien's graph
     hellec -> hayard;
     hellec -> ruiz;
+      ruiz -> othmane;
+        othmane -> mferdinand;
+        othmane -> mgemayel;
     hellec -> hanot;
-    
+
     //Quentin's graph
     font -> dana
       // Danae's graph
@@ -233,8 +263,8 @@ digraph EpiFamily {
     font -> gallois;
     font -> griffhey;
     font -> vhenry;
-    
-    
+
+
     // Kenan's graph
     kenan -> moe;
     kenan -> donia;
@@ -268,8 +298,6 @@ digraph EpiFamily {
     kenan -> attie;
     kenan -> barbarat;
 
-      
-      
     // Meven's graph
     mev -> cand;
       // Candice's graph
@@ -284,9 +312,8 @@ digraph EpiFamily {
     mev -> lucas;
     mev -> moe;
 
-
     /*
-    ** List of special links
+      ** List of special links
     */
 
     // love links, please use [dir=none color="hotpink"] attribute
