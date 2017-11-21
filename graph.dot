@@ -131,7 +131,7 @@ digraph EpiFamily {
     vhacquard [label="Victor\nHacquard"];
     vthiron [label="Valentin\nThiron"];
     othmane [label="Othmane\nEssakhi"];
-    mferdinand [label="Mom\nFerdinand"];
+    mferdinand [label="Ferdinand\nMom"];
     mgemayel [label="Maya\nGemayel"];
     zlayadi [label="Ziane\nLayadi"];
     qrondel [label="Quentin\nRondel"];
