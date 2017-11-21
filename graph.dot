@@ -274,7 +274,7 @@ digraph EpiFamily {
     font -> griffhey;
     font -> vhenry;
      vhenry -> alevi;
-    font -> slemoigne
+    font -> slemoigne;
 
 
     // Kenan's graph
