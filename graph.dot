@@ -143,6 +143,7 @@ digraph EpiFamily {
     mgouet [label="Maxime\nGouet"];
     lrabier [label="Lukas\nRabier"];
     saeed [label="Sara\nSaeed"];
+    satan [label="Fabien\nTessier"];
     
     /*
     ** List of patronage links
