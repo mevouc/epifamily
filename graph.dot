@@ -142,6 +142,7 @@ digraph EpiFamily {
     jsprintz [label="James\nSprintz"];
     mgouet [label="Maxime\nGouet"];
     lrabier [label="Lukas\nRabier"];
+    saeed [label="Sara\nSaeed"];
     
     /*
     ** List of patronage links
@@ -275,6 +276,8 @@ digraph EpiFamily {
     font -> vhenry;
      vhenry -> alevi;
     font -> slemoigne;
+        slemoigne -> ripoll;
+        slemoigne -> saeed;
 
 
     // Kenan's graph
