@@ -144,6 +144,7 @@ digraph EpiFamily {
     lrabier [label="Lukas\nRabier"];
     saeed [label="Sara\nSaeed"];
     satan [label="Fabien\nTessier"];
+    aparou [label="Albin\nParou"];
     
     /*
     ** List of patronage links
@@ -238,6 +239,7 @@ digraph EpiFamily {
       // Samy's graph
         samy -> vanvliet;
         samy -> tome;
+	  tome -> aparou;
    dav -> moe;
    dav -> nic;
    dav -> nolw;
@@ -284,8 +286,9 @@ digraph EpiFamily {
     // Kenan's graph
     kenan -> moe;
     kenan -> donia;
+      donia ->  ikhemir;
     kenan -> malasse;
-        malasse -> vseux;
+      malasse -> vseux;
     kenan -> roubeau;
     kenan -> charra;
     kenan -> apluquet;
