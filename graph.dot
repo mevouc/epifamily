@@ -343,4 +343,3 @@ digraph EpiFamily {
   skler -> malasse [dir=none color="hotpink"];
   victoria -> kluyt [dir=none color="hotpink"];
 }
-}
