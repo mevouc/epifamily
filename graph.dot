@@ -145,6 +145,7 @@ digraph EpiFamily {
     saeed [label="Sara\nSaeed"];
     satan [label="Fabien\nTessier"];
     aparou [label="Albin\nParou"];
+    mchardon [label="Maxime\nChardon"];
     
     /*
     ** List of patronage links
@@ -188,6 +189,7 @@ digraph EpiFamily {
         mgouet -> lrabier;
       ferd -> jsprintz;
       ferd -> lmasselles;
+      ferd -> mchardon;
     iwen -> doette;
       // Doette's graph
       doette -> maunaury;
