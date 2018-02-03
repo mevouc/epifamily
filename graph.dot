@@ -124,7 +124,7 @@ digraph EpiFamily {
     cgorgeon [label="Clément\nGeorgon"];
     lcardao [label="Léo\Cardão"];
     mlecomte [label="Malo\nLecomte"];
-    mhan [label="Maya\nHan"];
+    mhan [label="Maya\nHannachi"];
     mschoose [label="Merlin\nSchoose"];
     pmade [label="Pierrick\nMade"];
     tlepage [label="Théo\nLepage"];
@@ -301,6 +301,8 @@ digraph EpiFamily {
       tertre -> noailles;
       tertre -> kluyt;
       tertre -> victoria;
+      	//Victoria's graph
+	victoria -> mhan;
       tertre -> memeint;
       tertre -> molter;
       tertre -> rebut;
