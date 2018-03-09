@@ -148,6 +148,7 @@ digraph EpiFamily {
     mchardon [label="Maxime\nChardon"];
     vpellan [label="Victor\nPellan"];
     gdiawara [label="Gaëtan\nDiawara"];
+    vpellan [label="Victor\nPellan"];
 
     /*
     ** List of patronage links
