@@ -146,7 +146,8 @@ digraph EpiFamily {
     satan [label="Fabien\nTessier"];
     aparou [label="Albin\nParou"];
     mchardon [label="Maxime\nChardon"];
-    
+    vpellan [label="Victor\nPellan"];
+
     /*
     ** List of patronage links
     */
@@ -238,22 +239,22 @@ digraph EpiFamily {
         radic -> jrange;
         radic -> zlayadi;
       flick -> samy;
-      // Samy's graph
+        // Samy's graph
         samy -> vanvliet;
         samy -> tome;
-	  tome -> aparou;
-   dav -> moe;
-   dav -> nic;
-   dav -> nolw;
-   dav -> skler;
-   //Julien's graph
-    skler -> rosiek;
-    skler -> govys;
-    //Thomas's graph
-      govys -> roubeau;
-      //Maelle's graph
-        roubeau -> belley;
-
+	        tome -> aparou;
+    dav -> moe;
+    dav -> nic;
+    dav -> nolw;
+    dav -> skler;
+      //Julien's graph
+      skler -> rosiek;
+      skler -> govys;
+        //Thomas's graph
+        govys -> roubeau;
+          //Maelle's graph
+          roubeau -> belley;
+    dav -> vpellan;
 
     // Adrien's graph
     hellec -> hayard;
@@ -335,15 +336,14 @@ digraph EpiFamily {
     mev -> geof;
     mev -> lucas;
     mev -> moe;
-    
-  /*		
-  ** List of special links		
-  */		
-	
-  // love links, please use [dir=none color="hotpink"] attribute		
-  satan -> moe [dir=none color="hotpink"];		
-  kenan -> roubeau [dir=none color="hotpink"];		
-  dav -> baggins [dir=none color="hotpink"];		
-  skler -> malasse [dir=none color="hotpink"];
+
+  /*
+  ** List of special links
+  */
+
+  // love links, please use [dir=none color="hotpink"] attribute
+  satan -> moe [dir=none color="hotpink"];
+  kenan -> roubeau [dir=none color="hotpink"];
+  dav -> baggins [dir=none color="hotpink"];
   victoria -> kluyt [dir=none color="hotpink"];
 }
