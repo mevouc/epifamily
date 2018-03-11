@@ -340,10 +340,11 @@ digraph EpiFamily {
   /*
   ** List of special links
   */
-
-  // love links, please use [dir=none color="hotpink"] attribute
-  satan -> moe [dir=none color="hotpink"];
-  kenan -> roubeau [dir=none color="hotpink"];
-  dav -> baggins [dir=none color="hotpink"];
-  victoria -> kluyt [dir=none color="hotpink"];
+  { // love links, please use [dir=none color="hotpink"] attribute
+    edge [dir=none color="hotpink"]
+    satan -> moe
+    kenan -> roubeau
+    dav -> baggins
+    victoria -> kluyt
+  }
 }
