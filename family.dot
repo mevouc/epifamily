@@ -146,13 +146,14 @@ digraph EpiFamily {
     satan [label="Fabien\nTessier"];
     aparou [label="Albin\nParou"];
     mchardon [label="Maxime\nChardon"];
-    
+    gdiawara [label="Gaëtan\nDiawara"];
     /*
     ** List of patronage links
     */
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> gdiawara;
     iwen -> ikhemir;
     iwen -> gardebois;
     iwen -> pag;
