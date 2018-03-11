@@ -147,6 +147,7 @@ digraph EpiFamily {
     aparou [label="Albin\nParou"];
     mchardon [label="Maxime\nChardon"];
     vpellan [label="Victor\nPellan"];
+    gdiawara [label="Gaëtan\nDiawara"];
 
     /*
     ** List of patronage links
@@ -154,6 +155,7 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> gdiawara;
     iwen -> ikhemir;
     iwen -> gardebois;
     iwen -> pag;
