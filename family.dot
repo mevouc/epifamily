@@ -346,8 +346,8 @@ digraph EpiFamily {
   { // love links, please use [dir=none color="hotpink"] attribute
     edge [dir=none color="hotpink"]
     satan -> moe
-    kenan -> roubeau
     dav -> baggins
     victoria -> kluyt
   }
 }
+
