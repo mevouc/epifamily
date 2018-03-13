@@ -147,6 +147,8 @@ digraph EpiFamily {
     aparou [label="Albin\nParou"];
     mchardon [label="Maxime\nChardon"];
     gdiawara [label="Gaëtan\nDiawara"];
+    vpellan [label="Victor\nPellan"];
+
     /*
     ** List of patronage links
     */
@@ -239,22 +241,22 @@ digraph EpiFamily {
         radic -> jrange;
         radic -> zlayadi;
       flick -> samy;
-      // Samy's graph
+        // Samy's graph
         samy -> vanvliet;
         samy -> tome;
-	  tome -> aparou;
-   dav -> moe;
-   dav -> nic;
-   dav -> nolw;
-   dav -> skler;
-   //Julien's graph
-    skler -> rosiek;
-    skler -> govys;
-    //Thomas's graph
-      govys -> roubeau;
-      //Maelle's graph
-        roubeau -> belley;
-
+	        tome -> aparou;
+    dav -> moe;
+    dav -> nic;
+    dav -> nolw;
+    dav -> skler;
+      //Julien's graph
+      skler -> rosiek;
+      skler -> govys;
+        //Thomas's graph
+        govys -> roubeau;
+          //Maelle's graph
+          roubeau -> belley;
+    dav -> vpellan;
 
     // Adrien's graph
     hellec -> hayard;
@@ -336,16 +338,14 @@ digraph EpiFamily {
     mev -> geof;
     mev -> lucas;
     mev -> moe;
-    
-  /*		
-  ** List of special links		
-  */		
+
+  /*
+  ** List of special links
+  */
   { // love links, please use [dir=none color="hotpink"] attribute
     edge [dir=none color="hotpink"]
     satan -> moe
-    kenan -> roubeau
     dav -> baggins
-    skler -> malasse
     victoria -> kluyt
   }
 }
