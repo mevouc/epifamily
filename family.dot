@@ -146,7 +146,6 @@ digraph EpiFamily {
     satan [label="Fabien\nTessier"];
     aparou [label="Albin\nParou"];
     mchardon [label="Maxime\nChardon"];
-    vpellan [label="Victor\nPellan"];
     gdiawara [label="Gaëtan\nDiawara"];
     vpellan [label="Victor\nPellan"];
 
@@ -350,4 +349,3 @@ digraph EpiFamily {
     victoria -> kluyt
   }
 }
-
