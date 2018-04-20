@@ -148,6 +148,8 @@ digraph EpiFamily {
     mchardon [label="Maxime\nChardon"];
     gdiawara [label="Gaëtan\nDiawara"];
     vpellan [label="Victor\nPellan"];
+    tcens [label="Thibaut\nCens"];
+    mvidal [label="Matthieu\nVidal"];
 
     /*
     ** List of patronage links
@@ -155,6 +157,8 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> tcens;
+    iwen -> lacombe;
     iwen -> gdiawara;
     iwen -> ikhemir;
     iwen -> gardebois;
@@ -267,6 +271,7 @@ digraph EpiFamily {
     hellec -> hanot;
 
     //Quentin's graph
+    font -> mvidal;
     font -> dana
       // Danae's graph
       dana -> cel;
