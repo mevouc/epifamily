@@ -122,7 +122,7 @@ digraph EpiFamily {
     barbarat [label="Quentin\nBarbarat"];
     lacombe [label="Cloé\nLacombe"];
     cgorgeon [label="Clément\nGeorgon"];
-    lcardao [label="Léo\Cardão"];
+    lcardao [label="Léo\nCardão"];
     mlecomte [label="Malo\nLecomte"];
     mhan [label="Maya\nHannachi"];
     mschoose [label="Merlin\nSchoose"];
