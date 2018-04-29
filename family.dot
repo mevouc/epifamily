@@ -150,6 +150,7 @@ digraph EpiFamily {
     vpellan [label="Victor\nPellan"];
     tcens [label="Thibaut\nCens"];
     mvidal [label="Matthieu\nVidal"];
+    mschmidt [label="Martin\nSchmidt"];
 
     /*
     ** List of patronage links
@@ -249,6 +250,7 @@ digraph EpiFamily {
         samy -> vanvliet;
         samy -> tome;
 	        tome -> aparou;
+		tome -> mschmidt;
     dav -> moe;
     dav -> nic;
     dav -> nolw;
