@@ -1,16 +1,18 @@
-CC = neato
+DOT = sfdp
 ATTRS = -Goverlap=false -Gsplines=true
 
-IN = graph.dot
-IMG = family.png
+IMGOUT = family.png
 
-all:
-	$(CC) -Tpng $(ATTRS) $(IN) -o $(IMG)
+all: $(IMGOUT)
 
-view: all
-	feh -Z -F $(IMG)
+
+%.png: %.dot
+	$(DOT) -Tpng $(ATTRS) $< -o $@
+
+view: $(IMGOUT)
+	feh -Z -F $<
 
 clean:
-	$(RM) $(IMG)
+	$(RM) $(IMGOUT)
 
 .PHONY: all clean view

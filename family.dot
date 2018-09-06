@@ -1,0 +1,381 @@
+digraph EpiFamily {
+    // list of names
+    mev [label="Meven\nCourouble"];
+    iwen [label="Iwen\nGendrot"];
+    cand [label="Candice\nDelaire"];
+    seb [label="Sébastien\nBarbier"];
+    anth [label="Anthony\nMousset"];
+    salo [label="Salomé\nDesauty"];
+    geof [label="Geoffrey\nBossut"];
+    lucas [label="Lucas\nMouminoux"];
+    dana [label="Danaé\nMarmai"];
+    cel [label="Céline\nPierron"];
+    gaet [label="Gaëtan\nPusel"];
+    ferd [label="Ferdinand\nLemaire"];
+    moe [label="Moemoea\nFierin"];
+    pier [label="Pierre\nGastanaga"];
+    audr [label="Audran\nDoublet"];
+    anais [label="Anaïs\nDurand"];
+    dav [label="David\nLespine"];
+    flick [label="Louise\nFlick"];
+    nic [label="Nicolas\nMoutaud"];
+    nolw [label="Nolwenn\nGentric"];
+    kenan [label="Kenan\nLejosne"];
+    tertre [label="Manuel\nTertre"];
+    mercier [label="Corentin\nMercier"];
+    noailles [label="Louis\nNoailles"];
+    kluyt [label="Arthur\nKluytmans"];
+    victoria [label="Victoria\nKrajcovicova"];
+    memeint [label="Nicolas\nMemeint"];
+    molter [label="Tristan\nMolter"];
+    rebut [label="Clément\nRebut"];
+    tchan [label="Jérôme\nTchan"];
+    vatble [label="Mathis\nVatble"];
+    lasllo [label="Matthieu\nLasllo"];
+    baudot [label="Valentin\nBaudot"];
+    cecilon [label="Florian\nCecilon"];
+    shemtov [label="Nathan\nShemtov"];
+    siou [label="Killian\nSiou"];
+    vanvoorder [label="Alexi\nVandevoorde"];
+    rondier [label="Corentin\nRondier"];
+    hellec [label="Adrien\nHellec"];
+    hayard [label="Claire\nHayard"];
+    ruiz [label="Stephanie\nRuiz"];
+    hanot [label="Laura\nHanot"];
+    font [label="Quentin\nFontvielle"];
+    baggins [label="Léa\nFages"];
+    ph [label="Pierre-Hugo\nTrigan"];
+    griffhey [label="Bastien\nGriffhey"];
+    gallois [label="Thomas\nGallois"];
+    laroche [label="Hugo\nLaroche"];
+    fang [label="Clément\nFang"];
+    horiot [label="Timothey Horiot"];
+    sands [label="Jonathan\nSands"];
+    pensivy [label="Yoann\nPensivy"];
+    zabat [label="Akram\nZabat"];
+    radic [label="Paul\nRadic"];
+    doette [label="Doette\nBleton"];
+    maunaury [label="Augustin\nMaunaury"];
+    garreau [label="Juliette\nGarreau"];
+    billy [label="Claire\nBilly"];
+    yang [label=" Antony\nYang"];
+    samy [label="Samy\nHussaein"];
+    vanvliet [label="Alex\nVan-Vliet"];
+    tome [label="Tom-Eliott\nHerfray"];
+    pag [label="Pierre-André\nGirompaire"];
+    bossut [label="Alexandre\nBossut-Iasry"];
+    jean [label="Jean\nVerhaeghe"];
+    sabri [label="Sabri\nDounnez"];
+    verjus [label="Hugo\nVerjus"];
+    galbert [label="Tom\nGalbert"];
+    epie [label="Olivier\nEpié"];
+    goudout [label="Alice\nGoudout"];
+    jojo [label="Jonas\nBouaziz"];
+    bazille [label="Erwan\nBazille"];
+    goutard [label="Victor\nGoutard"];
+    blaise [label="Blaise\nCarnevillier"];
+    feng [label="Feng\nChung"];
+    tim [label="Timothee\nBarde"];
+    barre [label="Guillaume\nBarré"];
+    villain [label="Marc\nVillain"];
+    meng [label="Sabrina\nMeng"];
+    pham [label="Alicia\nPham"];
+    schloesing [label="Romain\nSchloesing"];
+    skler [label="Julien\nSkler"];
+    rosiek [label ="Hugo\nRosiek"];
+    vhenry [label ="Valentin\nHenry"];
+    malasse [label ="Juliette\nMalassé"];
+    govys [label ="Thomas\nGovys"];
+    roubeau [label="Maëlle\nRoubeau"];
+    pat [label="Pierre-Emmanuel\nPatry"];
+    mahamad [label = "Axel\nJan Mahamad"];
+    tristan [label = "Tristan\nMartin"];
+    hu [label = "Vincent\nHu"];
+    mahamad [label="Axel\nJan Mahamad"];
+    nalbandian [label="Samy\nNalbandian"];
+    donia [label="Donia\nLajnef"];
+    falcoz [label="Gauthier\nFalcoz"];
+    degroote [label="Theau\nDegroote"];
+    pascal [label="Marianne\nPascal"];
+    navarro [label="Hadrien\nNavarro"];
+    jiyari [label="Hakim\nJiyari"];
+    gardebois [label="Jeanne\nGardebois"];
+    ruter [label="Tristan\nRuter-Naon"];
+    acharles [label="Ambre\nCharles"];
+    nora [label="Nora\nDelfau"];
+    apluquet [label="Adèle\nPluquet"];
+    charra [label="Marine\nCharra"];
+    ichaumont [label="Imane\nChaumont"];
+    dmadro [label="Damien\nMadro"];
+    bamar [label="Benjamin\nAmar"];
+    tz [label="Yohan\nTancrez"];
+    zeitoun [label="Jérémie\nZeitoun"];
+    ripoll [label="Thomas\nRipoll"];
+    manceau [label="Aurélien\nManceau"];
+    jrange [label="Jules\nRange"];
+    ikhemir [label="Ines\nKhemir"];
+    souillac [label="Hugo\nSouillac"];
+    bibas [label="Jonathan\nBibas"];
+    houve [label="Juliette\nHouvenaghel"];
+    belley [label="César\nBelley"];
+    attie [label="Mahé\nAttié"];
+    barbarat [label="Quentin\nBarbarat"];
+    lacombe [label="Cloé\nLacombe"];
+    cgorgeon [label="Clément\nGeorgon"];
+    lcardao [label="Léo\nCardão"];
+    mlecomte [label="Malo\nLecomte"];
+    mhan [label="Maya\nHannachi"];
+    mschoose [label="Merlin\nSchoose"];
+    pmade [label="Pierrick\nMade"];
+    tlepage [label="Théo\nLepage"];
+    vhacquard [label="Victor\nHacquard"];
+    vthiron [label="Valentin\nThiron"];
+    othmane [label="Othmane\nEssakhi"];
+    mferdinand [label="Ferdinand\nMom"];
+    mgemayel [label="Maya\nGemayel"];
+    zlayadi [label="Ziane\nLayadi"];
+    qrondel [label="Quentin\nRondel"];
+    lmasselles [label="Lea\nMasselles"];
+    alevi [label="Arielle\nLevi"];
+    vseux [label="Valentin\nSeux"];
+    slemoigne [label="Sarah\nLe Moigne"];
+    jsprintz [label="James\nSprintz"];
+    mgouet [label="Maxime\nGouet"];
+    lrabier [label="Lukas\nRabier"];
+    saeed [label="Sara\nSaeed"];
+    satan [label="Fabien\nTessier"];
+    aparou [label="Albin\nParou"];
+    mchardon [label="Maxime\nChardon"];
+    gdiawara [label="Gaëtan\nDiawara"];
+    vpellan [label="Victor\nPellan"];
+    tcens [label="Thibaut\nCens"];
+    mvidal [label="Matthieu\nVidal"];
+    mschmidt [label="Martin\nSchmidt"];
+    eleroy [label="Emma\nLeroy"];
+    acoudret [label="Alber\nCoudret"];
+    mhuvelle [label="Martin\nHuvelle"];
+    qneouze [label="Quentin\nNeouze"];
+    tsadoune [label="Thanina\nSadoune"];
+    majed [label="Alexandre\nMajed"];
+    vbernard [label="Valentine\nBernard"];
+    vaginau [label="Arthur\nVuagniaux"];
+    jwirth [label="Julien\Wirth"];
+    erachlin [label="Emma\nRachlin"];
+    pkong [label="Paul\nKong"];
+    tnguyen [label="Tran Anh Thu\nNguyen"];
+
+    /*
+    ** List of patronage links
+    */
+
+    // Iwen's graph
+    iwen -> ruter [color="gold"];
+    iwen -> tcens;
+    iwen -> lacombe;
+    iwen -> gdiawara;
+    iwen -> ikhemir;
+    iwen -> gardebois;
+    iwen -> pag;
+    iwen -> bossut;
+    iwen -> jean;
+    iwen -> sabri;
+    iwen -> verjus;
+    iwen -> galbert;
+    iwen -> epie;
+    iwen -> goudout;
+    iwen -> jojo;
+    iwen -> bazille;
+    iwen -> goutard;
+    iwen -> blaise;
+    iwen -> feng;
+    iwen -> tim;
+    //Tim's graph
+      tim -> villain;
+      tim -> meng;
+      tim -> pat;
+    iwen -> barre;
+    //Guillaume's graph
+      barre -> pham;
+      barre -> schloesing;
+    iwen -> ferd
+      // Ferdinand's graph
+      ferd -> moe;
+      ferd -> pier;
+      ferd -> audr;
+      ferd -> anais;
+      ferd -> falcoz;
+      ferd -> degroote;
+      ferd -> mgouet;
+      ferd -> eleroy;
+        mgouet -> lrabier;
+      ferd -> jsprintz;
+      ferd -> lmasselles;
+      ferd -> mchardon;
+    iwen -> doette;
+      // Doette's graph
+      doette -> maunaury;
+    iwen -> garreau;
+      // Juliette's graph
+      garreau -> billy;
+      garreau -> seb;
+      garreau -> kluyt;
+      //Arthur Kluytmans's graph
+        kluyt -> cgorgeon;
+        kluyt -> lcardao;
+        kluyt -> mlecomte;
+        kluyt -> mhan;
+        kluyt -> mschoose;
+        kluyt -> pmade;
+        kluyt -> tlepage;
+        kluyt -> vhacquard;
+        kluyt -> vthiron;
+      garreau -> yang;
+    iwen -> navarro;
+    iwen -> acoudret;
+    	acoudret -> mhuvelle;
+    iwen -> qneouze;
+
+    // David's graph
+    dav -> flick;
+      // Louise's graph
+      flick -> noailles;
+        //Louis Noailles's graph
+        noailles -> jiyari;
+        noailles -> ichaumont;
+        noailles -> dmadro;
+        noailles -> bamar;
+        noailles -> tz;
+        noailles -> zeitoun;
+        noailles -> ripoll;
+		ripoll -> erachlin;
+		ripoll -> jwirth;
+        noailles -> manceau;
+        noailles -> acharles
+        noailles -> souillac;
+        noailles -> lacombe;
+        noailles -> qrondel;
+      flick -> sands;
+        sands -> zlayadi;
+      flick -> pensivy;
+      flick -> zabat;
+      flick -> radic;
+        //Radic
+        radic -> souillac;
+        radic -> jrange;
+        radic -> zlayadi;
+      flick -> samy;
+        // Samy's graph
+        samy -> vanvliet;
+        samy -> tome;
+	        tome -> aparou;
+		tome -> mschmidt;
+    dav -> moe;
+    dav -> nic;
+    dav -> nolw;
+    dav -> skler;
+      //Julien's graph
+      skler -> rosiek;
+      skler -> govys;
+        //Thomas's graph
+        govys -> roubeau;
+          //Maelle's graph
+          roubeau -> belley;
+    dav -> vpellan;
+
+    // Adrien's graph
+    hellec -> hayard;
+    hellec -> ruiz;
+      ruiz -> othmane;
+        othmane -> mferdinand;
+        othmane -> mgemayel;
+      ruiz -> pkong;
+      	pkong -> tnguyen;	
+    hellec -> hanot;
+
+    //Quentin's graph
+    font -> majed;
+    font -> vbernard;
+    font -> vaginau;
+    font -> mvidal;
+    font -> dana
+      // Danae's graph
+      dana -> cel;
+      dana -> gaet;
+    font -> laroche;
+    font -> baggins;
+    font -> fang;
+    //Clément's graph
+      fang -> hu;
+      fang -> tristan;
+    font -> horiot;
+    font -> ph;
+    font -> gallois;
+    font -> griffhey;
+    font -> vhenry;
+     vhenry -> alevi;
+    font -> slemoigne;
+        slemoigne -> ripoll;
+        slemoigne -> saeed;
+
+
+    // Kenan's graph
+    kenan -> moe;
+    kenan -> donia;
+      donia ->  ikhemir;
+    kenan -> malasse;
+      malasse -> vseux;
+    kenan -> roubeau;
+    kenan -> charra;
+    kenan -> apluquet;
+    kenan -> nora;
+    kenan -> tertre;
+    // Tertre's graph
+      tertre -> mercier;
+      tertre -> noailles;
+      tertre -> kluyt;
+      tertre -> victoria;
+      	//Victoria's graph
+	victoria -> mhan;
+      tertre -> memeint;
+      tertre -> molter;
+      tertre -> rebut;
+      tertre -> tchan;
+      tertre -> vatble;
+      tertre -> lasllo;
+      tertre -> baudot;
+      tertre -> cecilon;
+      tertre -> shemtov;
+      tertre -> siou;
+      tertre -> vanvoorder;
+      // Vandevoorde's graph
+        vanvoorder -> bibas;
+        vanvoorder -> houve;
+      tertre -> rondier;
+      tertre -> pascal;
+    kenan -> attie;
+    kenan -> barbarat;
+
+    // Meven's graph
+    mev -> cand;
+      // Candice's graph
+      cand -> billy;
+    mev -> seb;
+      seb -> mahamad;
+      seb -> nalbandian;
+      seb -> maunaury;
+    mev -> anth;
+    mev -> salo;
+    mev -> geof;
+    mev -> lucas;
+    mev -> moe;
+
+  /*
+  ** List of special links
+  */
+  { // love links, please use [dir=none color="hotpink"] attribute
+    edge [dir=none color="hotpink"]
+    satan -> moe
+    dav -> baggins
+    victoria -> kluyt
+  }
+}
