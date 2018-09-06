@@ -151,6 +151,18 @@ digraph EpiFamily {
     tcens [label="Thibaut\nCens"];
     mvidal [label="Matthieu\nVidal"];
     mschmidt [label="Martin\nSchmidt"];
+    eleroy [label="Emma\nLeroy"];
+    acoudret [label="Alber\nCoudret"];
+    mhuvelle [label="Martin\nHuvelle"];
+    qneouze [label="Quentin\nNeouze"];
+    tsadoune [label="Thanina\nSadoune"];
+    majed [label="Alexandre\nMajed"];
+    vbernard [label="Valentine\nBernard"];
+    vaginau [label="Arthur\nVuagniaux"];
+    jwirth [label="Julien\Wirth"];
+    erachlin [label="Emma\nRachlin"];
+    pkong [label="Paul\nKong"];
+    tnguyen [label="Tran Anh Thu\nNguyen"];
 
     /*
     ** List of patronage links
@@ -194,6 +206,7 @@ digraph EpiFamily {
       ferd -> falcoz;
       ferd -> degroote;
       ferd -> mgouet;
+      ferd -> eleroy;
         mgouet -> lrabier;
       ferd -> jsprintz;
       ferd -> lmasselles;
@@ -218,6 +231,9 @@ digraph EpiFamily {
         kluyt -> vthiron;
       garreau -> yang;
     iwen -> navarro;
+    iwen -> acoudret;
+    	acoudret -> mhuvelle;
+    iwen -> qneouze;
 
     // David's graph
     dav -> flick;
@@ -231,6 +247,8 @@ digraph EpiFamily {
         noailles -> tz;
         noailles -> zeitoun;
         noailles -> ripoll;
+		ripoll -> erachlin;
+		ripoll -> jwirth;
         noailles -> manceau;
         noailles -> acharles
         noailles -> souillac;
@@ -270,9 +288,14 @@ digraph EpiFamily {
       ruiz -> othmane;
         othmane -> mferdinand;
         othmane -> mgemayel;
+      ruiz -> pkong;
+      	pkong -> tnguyen;	
     hellec -> hanot;
 
     //Quentin's graph
+    font -> majed;
+    font -> vbernard;
+    font -> vaginau;
     font -> mvidal;
     font -> dana
       // Danae's graph
