@@ -163,6 +163,7 @@ digraph EpiFamily {
     erachlin [label="Emma\nRachlin"];
     pkong [label="Paul\nKong"];
     tnguyen [label="Tran Anh Thu\nNguyen"];
+    mfestoc [label="Mylan\nFestoc"];
 
     /*
     ** List of patronage links
@@ -173,6 +174,7 @@ digraph EpiFamily {
     iwen -> tcens;
     iwen -> lacombe;
     iwen -> gdiawara;
+      gdiawara -> mfestoc;
     iwen -> ikhemir;
     iwen -> gardebois;
     iwen -> pag;
@@ -266,6 +268,7 @@ digraph EpiFamily {
       flick -> samy;
         // Samy's graph
         samy -> vanvliet;
+        samy -> tsadoune;
         samy -> tome;
 	        tome -> aparou;
 		tome -> mschmidt;
