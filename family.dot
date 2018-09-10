@@ -179,6 +179,7 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> othmane;
     iwen -> adhollande;
     iwen -> tcens;
     iwen -> jblapeyre;
