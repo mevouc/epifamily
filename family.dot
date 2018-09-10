@@ -164,6 +164,11 @@ digraph EpiFamily {
     pkong [label="Paul\nKong"];
     tnguyen [label="Tran Anh Thu\nNguyen"];
     mfestoc [label="Mylan\nFestoc"];
+    smonier [label="Sarah\nNeau-Monier"];
+    mducrocq [label="Michael\nDucrocq"];
+    mhannachi [label="Maya\nHannachi"];
+    abachelet [label="Anouk\nBachelet"];
+
 
     /*
     ** List of patronage links
@@ -208,11 +213,12 @@ digraph EpiFamily {
       ferd -> falcoz;
       ferd -> degroote;
       ferd -> mgouet;
-      ferd -> eleroy;
         mgouet -> lrabier;
       ferd -> jsprintz;
       ferd -> lmasselles;
       ferd -> mchardon;
+      ferd -> smonier;
+      ferd -> eleroy;
     iwen -> doette;
       // Doette's graph
       doette -> maunaury;
@@ -231,6 +237,8 @@ digraph EpiFamily {
         kluyt -> tlepage;
         kluyt -> vhacquard;
         kluyt -> vthiron;
+        kluyt -> mhannachi;
+          mhannachi -> abachelet;
       garreau -> yang;
     iwen -> navarro;
     iwen -> acoudret;
@@ -291,14 +299,16 @@ digraph EpiFamily {
       ruiz -> othmane;
         othmane -> mferdinand;
         othmane -> mgemayel;
+
       ruiz -> pkong;
-      	pkong -> tnguyen;	
+      	pkong -> tnguyen;
     hellec -> hanot;
 
     //Quentin's graph
     font -> majed;
     font -> vbernard;
     font -> vaginau;
+      vaginau -> mducrocq;
     font -> mvidal;
     font -> dana
       // Danae's graph
