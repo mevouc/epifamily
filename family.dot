@@ -139,7 +139,7 @@ digraph EpiFamily {
     alevi [label="Arielle\nLevi"];
     vseux [label="Valentin\nSeux"];
     slemoigne [label="Sarah\nLe Moigne"];
-    jsprintz [label="James\nSprintz"];
+    jsprintz [label="Gwendal\nLandrein"];
     mgouet [label="Maxime\nGouet"];
     lrabier [label="Lukas\nRabier"];
     saeed [label="Sara\nSaeed"];
@@ -168,7 +168,13 @@ digraph EpiFamily {
     mducrocq [label="Michael\nDucrocq"];
     mhannachi [label="Maya\nHannachi"];
     abachelet [label="Anouk\nBachelet"];
-
+    mbernard [label="Marion\nBernard"];
+    fpape [label="Florant\nLe Pape"];
+    psoulier [label="Paul\nMurelli-Soullier"];
+    cnader [label="Charles\nAbi Nader"];
+    ydinia [label="Youssef\nBouarfa Dinia"];
+    jblapeyre [label="Jean-Baptiste\nLapeyre"];
+    adhollande [label="Aurélien\Dhollande"];
 
     /*
     ** List of patronage links
@@ -176,7 +182,10 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> othmane;
+    iwen -> adhollande;
     iwen -> tcens;
+    iwen -> jblapeyre;
     iwen -> lacombe;
     iwen -> gdiawara;
       gdiawara -> mfestoc;
@@ -213,8 +222,12 @@ digraph EpiFamily {
       ferd -> falcoz;
       ferd -> degroote;
       ferd -> mgouet;
+      ferd -> eleroy;
+        // Maxime Gouet's graph
         mgouet -> lrabier;
       ferd -> jsprintz;
+        // Gwendal Landrein's graph
+        jsprintz -> ydinia
       ferd -> lmasselles;
       ferd -> mchardon;
       ferd -> smonier;
@@ -242,7 +255,8 @@ digraph EpiFamily {
       garreau -> yang;
     iwen -> navarro;
     iwen -> acoudret;
-    	acoudret -> mhuvelle;
+      // Alban Coudret's graph
+      acoudret -> mhuvelle;
     iwen -> qneouze;
 
     // David's graph
@@ -257,8 +271,8 @@ digraph EpiFamily {
         noailles -> tz;
         noailles -> zeitoun;
         noailles -> ripoll;
-		ripoll -> erachlin;
-		ripoll -> jwirth;
+	  ripoll -> erachlin;
+	  ripoll -> jwirth;
         noailles -> manceau;
         noailles -> acharles
         noailles -> souillac;
@@ -278,8 +292,10 @@ digraph EpiFamily {
         samy -> vanvliet;
         samy -> tsadoune;
         samy -> tome;
-	        tome -> aparou;
-		tome -> mschmidt;
+	  tome -> aparou;
+	  tome -> mschmidt;
+	    mschmidt -> cnader;
+	    mschmidt -> fpape;
     dav -> moe;
     dav -> nic;
     dav -> nolw;
@@ -287,6 +303,7 @@ digraph EpiFamily {
       //Julien's graph
       skler -> rosiek;
       skler -> govys;
+      skler -> skler;
         //Thomas's graph
         govys -> roubeau;
           //Maelle's graph
@@ -326,13 +343,16 @@ digraph EpiFamily {
     font -> griffhey;
     font -> vhenry;
      vhenry -> alevi;
+     vhenry -> psoulier;
+     vhenry -> fpape;
     font -> slemoigne;
-        slemoigne -> ripoll;
-        slemoigne -> saeed;
+      slemoigne -> ripoll;
+      slemoigne -> saeed;
 
 
     // Kenan's graph
     kenan -> moe;
+    kenan -> mbernard;
     kenan -> donia;
       donia ->  ikhemir;
     kenan -> malasse;
