@@ -170,6 +170,8 @@ digraph EpiFamily {
     cnader [label="Charles\nAbi Nader"];
     ydinia [label="Youssef\nBouarfa Dinia"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
+    adhollande [label="Aurélien\Dhollande"];
+    
 
     /*
     ** List of patronage links
@@ -177,6 +179,7 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> adhollande;
     iwen -> tcens;
     iwen -> jblapeyre;
     iwen -> lacombe;
