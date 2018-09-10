@@ -166,7 +166,6 @@ digraph EpiFamily {
     mfestoc [label="Mylan\nFestoc"];
     smonier [label="Sarah\nNeau-Monier"];
     mducrocq [label="Michael\nDucrocq"];
-    mhannachi [label="Maya\nHannachi"];
     abachelet [label="Anouk\nBachelet"];
     mbernard [label="Marion\nBernard"];
     fpape [label="Florant\nLe Pape"];
@@ -250,8 +249,7 @@ digraph EpiFamily {
         kluyt -> tlepage;
         kluyt -> vhacquard;
         kluyt -> vthiron;
-        kluyt -> mhannachi;
-          mhannachi -> abachelet;
+          mhan -> abachelet;
       garreau -> yang;
     iwen -> navarro;
     iwen -> acoudret;
