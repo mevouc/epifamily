@@ -159,7 +159,7 @@ digraph EpiFamily {
     majed [label="Alexandre\nMajed"];
     vbernard [label="Valentine\nBernard"];
     vaginau [label="Arthur\nVuagniaux"];
-    jwirth [label="Julien\Wirth"];
+    jwirth [label="Julien\nWirth"];
     erachlin [label="Emma\nRachlin"];
     pkong [label="Paul\nKong"];
     tnguyen [label="Tran Anh Thu\nNguyen"];
@@ -173,7 +173,7 @@ digraph EpiFamily {
     cnader [label="Charles\nAbi Nader"];
     ydinia [label="Youssef\nBouarfa Dinia"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
-    adhollande [label="Aurélien\Dhollande"];
+    adhollande [label="Aurélien\nDhollande"];
     mhau [label="Mailys\nHau"];
 
     /*
@@ -181,239 +181,181 @@ digraph EpiFamily {
     */
 
     // Iwen's graph
-    iwen -> ruter [color="gold"];
-    iwen -> othmane;
-    iwen -> adhollande;
-    iwen -> tcens;
-    iwen -> jblapeyre;
-    iwen -> lacombe;
-    iwen -> gdiawara;
-      gdiawara -> mfestoc;
-    iwen -> ikhemir;
-    iwen -> gardebois;
-    iwen -> pag;
-    iwen -> bossut;
-    iwen -> jean;
-    iwen -> sabri;
-    iwen -> verjus;
-    iwen -> galbert;
-    iwen -> epie;
-    iwen -> goudout;
-    iwen -> jojo;
-    iwen -> bazille;
-    iwen -> goutard;
-    iwen -> blaise;
-    iwen -> feng;
-    iwen -> tim;
-    //Tim's graph
-      tim -> villain;
-      tim -> meng;
-      tim -> pat;
-    iwen -> barre;
-    //Guillaume's graph
-      barre -> pham;
-      barre -> schloesing;
-    iwen -> ferd
-      // Ferdinand's graph
-      ferd -> moe;
-      ferd -> pier;
-      ferd -> audr;
-      ferd -> anais;
-      ferd -> falcoz;
-      ferd -> degroote;
-      ferd -> mgouet;
-      ferd -> eleroy;
-        // Maxime Gouet's graph
-        mgouet -> lrabier;
-      ferd -> jsprintz;
-        // Gwendal Landrein's graph
-        jsprintz -> ydinia
-      ferd -> lmasselles;
-      ferd -> mchardon;
-      ferd -> smonier;
-    iwen -> doette;
-      // Doette's graph
-      doette -> maunaury;
-    iwen -> garreau;
-      // Juliette's graph
-      garreau -> billy;
-      garreau -> seb;
-      garreau -> kluyt;
-      //Arthur Kluytmans's graph
-        kluyt -> cgorgeon;
-        kluyt -> lcardao;
-        kluyt -> mlecomte;
-        kluyt -> mhan;
-        kluyt -> mschoose;
-        kluyt -> pmade;
-        kluyt -> tlepage;
-        kluyt -> vhacquard;
-        kluyt -> vthiron;
-          mhan -> abachelet;
-      garreau -> yang;
-    iwen -> navarro;
-    iwen -> acoudret;
-      // Alban Coudret's graph
-      acoudret -> mhuvelle;
-    iwen -> qneouze;
 
-    // David's graph
-    dav -> flick;
-      flick -> mhau;
-      // Louise's graph
-      flick -> noailles;
-        //Louis Noailles's graph
-        noailles -> jiyari;
-        noailles -> ichaumont;
-        noailles -> dmadro;
-        noailles -> bamar;
-        noailles -> tz;
-        noailles -> zeitoun;
-        noailles -> ripoll;
-	  ripoll -> erachlin;
-	  ripoll -> jwirth;
-        noailles -> manceau;
-        noailles -> acharles
-        noailles -> souillac;
-        noailles -> lacombe;
-        noailles -> qrondel;
-      flick -> sands;
-        sands -> zlayadi;
-      flick -> pensivy;
-      flick -> zabat;
-      flick -> radic;
-        //Radic
-        radic -> souillac;
-        radic -> jrange;
-        radic -> zlayadi;
-      flick -> samy;
-        // Samy's graph
-        samy -> vanvliet;
-        samy -> tsadoune;
-        samy -> tome;
-	  tome -> aparou;
-	  tome -> mschmidt;
-	    mschmidt -> cnader;
-	    mschmidt -> fpape;
-    dav -> moe;
-    dav -> nic;
-    dav -> nolw;
-    dav -> skler;
-      //Julien's graph
-      skler -> rosiek;
-      skler -> skler;
-      skler -> skler;
-      skler -> skler;
-      skler -> skler;
-      skler -> skler;
-      skler -> govys;
-      skler -> skler;
-        //Thomas's graph
-        govys -> roubeau;
-          //Maelle's graph
-          roubeau -> belley;
-    dav -> vpellan;
-    dav -> acoudret;
-
-    // Adrien's graph
-    hellec -> hayard;
-    hellec -> ruiz;
-      ruiz -> othmane;
-        othmane -> mferdinand;
-        othmane -> mgemayel;
-
-      ruiz -> pkong;
-      	pkong -> tnguyen;
-    hellec -> hanot;
-
-    //Quentin's graph
-    font -> majed;
-    font -> vbernard;
-    font -> vaginau;
-      vaginau -> mducrocq;
-    font -> mvidal;
-    font -> dana
-      // Danae's graph
-      dana -> cel;
-      dana -> gaet;
-    font -> laroche;
-    font -> baggins;
-    font -> fang;
-    //Clément's graph
-      fang -> hu;
-      fang -> tristan;
-    font -> horiot;
-    font -> ph;
-    font -> gallois;
-    font -> griffhey;
-    font -> vhenry;
-     vhenry -> alevi;
-     vhenry -> psoulier;
-     vhenry -> fpape;
-    font -> slemoigne;
-      slemoigne -> ripoll;
-      slemoigne -> saeed;
-
-
-    // Kenan's graph
-    kenan -> moe;
-    kenan -> mbernard;
-    kenan -> donia;
-      donia ->  ikhemir;
-    kenan -> malasse;
-      malasse -> vseux;
-    kenan -> roubeau;
-    kenan -> charra;
-    kenan -> apluquet;
-    kenan -> nora;
-    kenan -> tertre;
-    // Tertre's graph
-      tertre -> mercier;
-      tertre -> noailles;
-      tertre -> kluyt;
-      tertre -> victoria;
-      	//Victoria's graph
-	victoria -> mhan;
-      tertre -> memeint;
-      tertre -> molter;
-      tertre -> rebut;
-      tertre -> tchan;
-      tertre -> vatble;
-      tertre -> lasllo;
-      tertre -> baudot;
-      tertre -> cecilon;
-      tertre -> shemtov;
-      tertre -> siou;
-      tertre -> vanvoorder;
-      // Vandevoorde's graph
-        vanvoorder -> bibas;
-        vanvoorder -> houve;
-      tertre -> rondier;
-      tertre -> pascal;
-    kenan -> attie;
-    kenan -> barbarat;
-
-    // Meven's graph
-    mev -> cand;
-      // Candice's graph
-      cand -> billy;
-    mev -> seb;
-      seb -> mahamad;
-      seb -> nalbandian;
-      seb -> maunaury;
-    mev -> anth;
-    mev -> salo;
-    mev -> geof;
-    mev -> lucas;
-    mev -> moe;
-
-  /*
-  ** List of special links
-  */
-  { // love links, please use [dir=none color="hotpink"] attribute
-    edge [dir=none color="hotpink"]
-    satan -> moe
-    dav -> baggins
-    victoria -> kluyt
-  }
+iwen -> mev;
+iwen -> cand;
+iwen -> seb;
+iwen -> anth;
+iwen -> salo;
+iwen -> geof;
+iwen -> lucas;
+iwen -> dana;
+iwen -> cel;
+iwen -> gaet;
+iwen -> ferd;
+iwen -> moe;
+iwen -> pier;
+iwen -> audr;
+iwen -> anais;
+iwen -> dav;
+iwen -> flick;
+iwen -> nic;
+iwen -> nolw;
+iwen -> kenan;
+iwen -> tertre ;
+iwen -> mercier;
+iwen -> noailles;
+iwen -> kluyt ;
+iwen -> victoria;
+iwen -> memeint ;
+iwen -> molter ;
+iwen -> rebut ;
+iwen -> tchan ;
+iwen -> vatble ;
+iwen -> lasllo ;
+iwen -> baudot ;
+iwen -> cecilon ;
+iwen -> shemtov ;
+iwen -> siou ;
+iwen -> vanvoorder ;
+iwen -> rondier;
+iwen -> hellec ;
+iwen -> hayard ;
+iwen -> ruiz ;
+iwen -> hanot ;
+iwen -> font ;
+iwen -> baggins;
+iwen -> ph ;
+iwen -> griffhey ;
+iwen -> gallois;
+iwen -> laroche;
+iwen -> fang ;
+iwen -> horiot ;
+iwen -> sands ;
+iwen -> pensivy;
+iwen -> zabat ;
+iwen -> radic ;
+iwen -> doette ;
+iwen -> maunaury ;
+iwen -> garreau ;
+iwen -> billy;
+iwen -> yang ;
+iwen -> samy ;
+iwen -> vanvliet ;
+iwen -> tome;
+iwen -> pag ;
+iwen -> bossut;
+iwen -> jean ;
+iwen -> sabri ;
+iwen -> verjus;
+iwen -> galbert;
+iwen -> epie ;
+iwen -> goudout ;
+iwen -> jojo ;
+iwen -> bazille;
+iwen -> goutard;
+iwen -> blaise ;
+iwen -> feng ;
+iwen -> tim ;
+iwen -> barre ;
+iwen -> villain;
+iwen -> meng ;
+iwen -> pham ;
+iwen -> schloesing ;
+iwen -> skler ;
+iwen -> rosiek;
+iwen -> vhenry;
+iwen -> malasse;
+iwen -> govys ;
+iwen -> roubeau;
+iwen -> pat ;
+iwen -> mahamad;
+iwen -> tristan;
+iwen -> hu ;
+iwen -> mahamad;
+iwen -> nalbandian ;
+iwen -> donia ;
+iwen -> falcoz ;
+iwen -> degroote;
+iwen -> pascal ;
+iwen -> navarro ;
+iwen -> jiyari ;
+iwen -> gardebois ;
+iwen -> ruter ;
+iwen -> acharles ;
+iwen -> nora ;
+iwen -> apluquet ;
+iwen -> charra ;
+iwen -> ichaumont ;
+iwen -> dmadro ;
+iwen -> bamar ;
+iwen -> tz ;
+iwen -> zeitoun;
+iwen -> ripoll ;
+iwen -> manceau;
+iwen -> jrange ;
+iwen -> ikhemir;
+iwen -> souillac;
+iwen -> bibas ;
+iwen -> houve ;
+iwen -> belley ;
+iwen -> attie ;
+iwen -> barbarat;
+iwen -> lacombe ;
+iwen -> cgorgeon;
+iwen -> lcardao ;
+iwen -> mlecomte;
+iwen -> mhan ;
+iwen -> mschoose;
+iwen -> pmade ;
+iwen -> tlepage ;
+iwen -> vhacquar;
+iwen -> vthiron ;
+iwen -> othmane ;
+iwen -> mferdinand ;
+iwen -> mgemayel;
+iwen -> zlayadi ;
+iwen -> qrondel ;
+iwen -> lmasselles ;
+iwen -> alevi ;
+iwen -> vseux ;
+iwen -> slemoigne;
+iwen -> jsprintz ;
+iwen -> mgouet ;
+iwen -> lrabier ;
+iwen -> saeed ;
+iwen -> satan ;
+iwen -> aparou ;
+iwen -> mchardon ;
+iwen -> gdiawara ;
+iwen -> vpellan ;
+iwen -> tcens ;
+iwen -> mvidal ;
+iwen -> mschmidt;
+iwen -> eleroy ;
+iwen -> acoudret ;
+iwen -> mhuvelle ;
+iwen -> qneouze ;
+iwen -> tsadoune ;
+iwen -> majed ;
+iwen -> vbernard ;
+iwen -> vaginau ;
+iwen -> jwirth ;
+iwen -> erachlin ;
+iwen -> pkong ;
+iwen -> tnguyen ;
+iwen -> mfestoc ;
+iwen -> smonier ;
+iwen -> mducrocq ;
+iwen -> abachelet;
+iwen -> mbernard ;
+iwen -> fpape ;
+iwen -> psoulier ;
+iwen -> cnader ;
+iwen -> ydinia ;
+iwen -> jblapeyre;
+iwen -> adhollande ;
+iwen -> mhau;
+iwen -> vhacquard;
+iwen -> iwen;
 }
