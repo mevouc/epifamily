@@ -49,7 +49,7 @@ digraph EpiFamily {
     gallois [label="Thomas\nGallois"];
     laroche [label="Hugo\nLaroche"];
     fang [label="Clément\nFang"];
-    horiot [label="Timothey Horiot"];
+    horiot [label="Timothey\nHoriot"];
     sands [label="Jonathan\nSands"];
     pensivy [label="Yoann\nPensivy"];
     zabat [label="Akram\nZabat"];
@@ -62,6 +62,7 @@ digraph EpiFamily {
     samy [label="Samy\nHussaein"];
     vanvliet [label="Alex\nVan-Vliet"];
     tome [label="Tom-Eliott\nHerfray"];
+    berard [label= "Alexandre\nBérard"];
     pag [label="Pierre-André\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
     jean [label="Jean\nVerhaeghe"];
@@ -282,7 +283,7 @@ digraph EpiFamily {
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
-        //Radic
+        //Radic's graph
         radic -> souillac;
         radic -> jrange;
         radic -> zlayadi;
@@ -291,7 +292,9 @@ digraph EpiFamily {
         samy -> vanvliet;
         samy -> tsadoune;
         samy -> tome;
+	  //Tom-Eliott's graph
 	  tome -> aparou;
+	  tome -> berard;
 	  tome -> mschmidt;
 	    mschmidt -> cnader;
 	    mschmidt -> fpape;
