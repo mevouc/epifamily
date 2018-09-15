@@ -176,6 +176,7 @@ digraph EpiFamily {
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
     adhollande [label="Aurélien\Dhollande"];
     mhau [label="Mailys\nHau"];
+    tecoffet [label="Tugdual\nEcoffet"];
 
     /*
     ** List of patronage links
@@ -294,6 +295,7 @@ digraph EpiFamily {
         samy -> tome;
 	  //Tom-Eliott's graph
 	  tome -> aparou;
+        aparou -> tecoffet;
 	  tome -> berard;
 	  tome -> mschmidt;
 	    mschmidt -> cnader;
