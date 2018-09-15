@@ -295,7 +295,8 @@ digraph EpiFamily {
         samy -> tome;
 	  //Tom-Eliott's graph
 	  tome -> aparou;
-        aparou -> tecoffet;
+	    //Albin's graph
+            aparou -> tecoffet;
 	  tome -> berard;
 	  tome -> mschmidt;
 	    mschmidt -> cnader;
