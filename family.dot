@@ -173,8 +173,26 @@ digraph EpiFamily {
     cnader [label="Charles\nAbi Nader"];
     ydinia [label="Youssef\nBouarfa Dinia"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
-    adhollande [label="Aurélien\Dhollande"];
+    adhollande [label="Aurélien\nDhollande"];
     mhau [label="Mailys\nHau"];
+    alafargue [label="Anton\nLafargue"];
+    ikhilali [label="Inès\nEl Khilali"];
+    mwenger [label="Marlon\nWenger"];
+    gbjarstal [label="Georgia\nBjarstal"];
+    cdevaux [label="Caroline\nDevaux"];
+    jhoupert [label="Jocelyn\nHoupert"];
+    ahoupert [label="Adrien\nHoupert"];
+    eubogi [label="Elie\nUbogi"];
+    qgosselet [label="Quentin\nGosselet"];
+    bcoutadeur [label="Bastien\nCoutadeur"];
+    acastello [label="Alexandre\nCastello"];
+    vcollod [label="Victor\nCollod"];
+    ybonnet [label="Yann\nBonnet"];
+    pviallet [label="Paul\nViallet"];
+    mstombellini [label="Matthieu\nStombellini"];
+    tecoffet [label="Tugdual\nEcoffet"];
+    gschuler [label="Gaetan\nSchuler"];
+    clevesque [label="Clotilde\nLevesque"];
 
     /*
     ** List of patronage links
@@ -187,9 +205,12 @@ digraph EpiFamily {
     iwen -> tcens;
     iwen -> jblapeyre;
     iwen -> lacombe;
+      lacombe -> vcollod;
+      lacombe -> ikhemir;
     iwen -> gdiawara;
       gdiawara -> mfestoc;
     iwen -> ikhemir;
+      ikhemir -> lacombe;
     iwen -> gardebois;
     iwen -> pag;
     iwen -> bossut;
@@ -216,6 +237,7 @@ digraph EpiFamily {
     iwen -> ferd
       // Ferdinand's graph
       ferd -> moe;
+      ferd -> lacombe;
       ferd -> pier;
       ferd -> audr;
       ferd -> anais;
@@ -229,6 +251,7 @@ digraph EpiFamily {
         // Gwendal Landrein's graph
         jsprintz -> ydinia
       ferd -> lmasselles;
+        lmasselles -> cdevaux;
       ferd -> mchardon;
       ferd -> smonier;
     iwen -> doette;
@@ -243,7 +266,14 @@ digraph EpiFamily {
         kluyt -> cgorgeon;
         kluyt -> lcardao;
         kluyt -> mlecomte;
+          mlecomte -> alafargue;
+          mlecomte -> ikhilali;
+          mlecomte -> cgorgeon;
+          mlecomte -> mwenger;
+          mlecomte -> tsadoune;
+            tsadoune -> mstombellini;
         kluyt -> mhan;
+          mhan -> gbjarstal;
         kluyt -> mschoose;
         kluyt -> pmade;
         kluyt -> tlepage;
@@ -282,6 +312,7 @@ digraph EpiFamily {
       flick -> pensivy;
       flick -> zabat;
       flick -> radic;
+      flick -> ybonnet,
         //Radic
         radic -> souillac;
         radic -> jrange;
@@ -289,12 +320,20 @@ digraph EpiFamily {
       flick -> samy;
         // Samy's graph
         samy -> vanvliet;
+        samy -> pviallet;
         samy -> tsadoune;
         samy -> tome;
 	  tome -> aparou;
+            aparou -> tecoffet;
 	  tome -> mschmidt;
 	    mschmidt -> cnader;
 	    mschmidt -> fpape;
+            mschmidt -> jhoupert;
+            mschmidt -> ahoupert;
+            mschmidt -> eubogi;
+            mschmidt -> qgosselet;
+            mschmidt -> bcoutadeur;
+            mschmidt -> acastello;
     dav -> moe;
     dav -> nic;
     dav -> nolw;
@@ -330,8 +369,10 @@ digraph EpiFamily {
     font -> majed;
     font -> vbernard;
     font -> vaginau;
+      vaginau -> gschuler;
       vaginau -> mducrocq;
     font -> mvidal;
+      mvidal -> clevesque;
     font -> dana
       // Danae's graph
       dana -> cel;
