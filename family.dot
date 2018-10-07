@@ -195,6 +195,7 @@ digraph EpiFamily {
     gschuler [label="Gaetan\nSchuler"];
     clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
+    vivi[label="Thomas\nSirvent"];
 
     /*
     ** List of patronage links
@@ -273,6 +274,7 @@ digraph EpiFamily {
           mlecomte -> cgorgeon;
           mlecomte -> mwenger;
           mlecomte -> tsadoune;
+	  mlecomte -> vivi;
             tsadoune -> mstombellini;
         kluyt -> mhan;
           mhan -> gbjarstal;
@@ -423,6 +425,7 @@ digraph EpiFamily {
       tertre -> victoria;
       	//Victoria's graph
 	victoria -> mhan;
+	victoria -> mlecomte;
       tertre -> memeint;
       tertre -> molter;
       tertre -> rebut;
