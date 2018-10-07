@@ -195,7 +195,7 @@ digraph EpiFamily {
     gschuler [label="Gaetan\nSchuler"];
     clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
-    vivi[label="Thomas\nSirvent"];
+    tsirvent [label="Thomas\nSirvent"];
 
     /*
     ** List of patronage links
@@ -269,13 +269,15 @@ digraph EpiFamily {
         kluyt -> cgorgeon;
         kluyt -> lcardao;
         kluyt -> mlecomte;
+	//Malo Lecomte's graph
           mlecomte -> alafargue;
           mlecomte -> ikhilali;
           mlecomte -> cgorgeon;
           mlecomte -> mwenger;
-          mlecomte -> tsadoune;
-	  mlecomte -> vivi;
-            tsadoune -> mstombellini;
+          mlecomte -> tsirvent;
+	  mlecomte -> tsadoune;
+	  //Thanina's graph
+	    tsadoune -> mstombellini;            
         kluyt -> mhan;
           mhan -> gbjarstal;
         kluyt -> mschoose;
@@ -378,9 +380,11 @@ digraph EpiFamily {
     font -> donia;
     font -> vbernard;
     font -> vaginau;
+    //Vaginal's graph
       vaginau -> gschuler;
       vaginau -> mducrocq;
     font -> mvidal;
+    //MVidal's graph
       mvidal -> clevesque;
     font -> dana
       // Danae's graph
@@ -397,10 +401,12 @@ digraph EpiFamily {
     font -> gallois;
     font -> griffhey;
     font -> vhenry;
+    //Valentin Henry's graph
      vhenry -> alevi;
      vhenry -> psoulier;
      vhenry -> fpape;
     font -> slemoigne;
+    //Sarah LeMoigne's graph
       slemoigne -> ripoll;
       slemoigne -> saeed;
 
@@ -410,8 +416,10 @@ digraph EpiFamily {
     kenan -> baggins;
     kenan -> mbernard;
     kenan -> donia;
+    //Donia's graph
       donia ->  ikhemir;
     kenan -> malasse;
+    //Malasse's graph	
       malasse -> vseux;
     kenan -> roubeau;
     kenan -> charra;
@@ -423,7 +431,7 @@ digraph EpiFamily {
       tertre -> noailles;
       tertre -> kluyt;
       tertre -> victoria;
-      	//Victoria's graph
+      //Victoria's graph
 	victoria -> mhan;
 	victoria -> mlecomte;
       tertre -> memeint;
