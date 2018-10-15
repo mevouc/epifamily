@@ -196,6 +196,8 @@ digraph EpiFamily {
     clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
     tsirvent [label="Thomas\nSirvent"];
+    lbellanger [label="Liam\nBellanger"];
+    mdelcourt [label="Maxime\nDelcourt"];
 
     /*
     ** List of patronage links
@@ -336,6 +338,7 @@ digraph EpiFamily {
             aparou -> tecoffet;
 	  tome -> berard;
 	  tome -> mschmidt;
+	    //Martin's graph
 	    mschmidt -> cnader;
 	    mschmidt -> fpape;
             mschmidt -> jhoupert;
@@ -344,6 +347,8 @@ digraph EpiFamily {
             mschmidt -> qgosselet;
             mschmidt -> bcoutadeur;
             mschmidt -> acastello;
+	    mschmidt -> lbellanger;
+	    mschmidt -> mdelcourt;
     dav -> moe;
     dav -> nic;
     dav -> nolw;
