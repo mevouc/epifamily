@@ -304,6 +304,8 @@ digraph EpiFamily {
         noailles -> ichaumont;
         noailles -> dmadro;
         noailles -> bamar;
+	   // Ben's graph (in construction)
+	   bamar -> bamar;
         noailles -> tz;
         noailles -> zeitoun;
         noailles -> ripoll;
