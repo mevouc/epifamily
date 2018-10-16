@@ -201,6 +201,7 @@ digraph EpiFamily {
     amorvan [label="Adrien\nMorvan"];
     lbellanger [label="Liam\nBellanger"];
     lgerthoffer [label="Lucile\nGerthoffer"];
+    cmalanda [label="Constant\nMalanda"];
 
     /*
     ** List of patronage links
@@ -337,6 +338,7 @@ digraph EpiFamily {
         samy -> pviallet;
         samy -> tsadoune;
         samy -> tome;
+	samy -> cmalanda;
 	  //Tom-Eliott's graph
 	  tome -> aparou;
 	    //Albin's graph
