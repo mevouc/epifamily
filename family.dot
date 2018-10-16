@@ -196,6 +196,11 @@ digraph EpiFamily {
     clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
     tsirvent [label="Thomas\nSirvent"];
+    azouz [label="Alex\nZouz"];
+    jsainctavit [label="Jean\nSainctavit"];
+    amorvan [label="Adrien\nMorvan"];
+    lbellanger [label="Liam\nBellanger"];
+    lgerthoffer [label="Lucile\nGerthoffer"];
 
     /*
     ** List of patronage links
@@ -277,7 +282,8 @@ digraph EpiFamily {
           mlecomte -> tsirvent;
 	  mlecomte -> tsadoune;
 	  //Thanina's graph
-	    tsadoune -> mstombellini;            
+	    tsadoune -> mstombellini;
+            tsadoune -> azouz;
         kluyt -> mhan;
           mhan -> gbjarstal;
         kluyt -> mschoose;
@@ -337,6 +343,7 @@ digraph EpiFamily {
 	  tome -> berard;
 	  tome -> mschmidt;
 	    mschmidt -> cnader;
+            mschmidt -> lbellanger;
 	    mschmidt -> fpape;
             mschmidt -> jhoupert;
             mschmidt -> ahoupert;
@@ -350,9 +357,6 @@ digraph EpiFamily {
     dav -> skler;
       //Julien's graph
       skler -> rosiek;
-      skler -> skler;
-      skler -> skler;
-      skler -> skler;
       skler -> skler;
       skler -> skler;
       skler -> govys;
@@ -386,6 +390,9 @@ digraph EpiFamily {
     font -> mvidal;
     //MVidal's graph
       mvidal -> clevesque;
+      mvidal -> amorvan;
+      mvidal -> tsadoune;
+      mvidal -> jsainctavit;
     font -> dana
       // Danae's graph
       dana -> cel;
@@ -412,6 +419,7 @@ digraph EpiFamily {
 
 
     // Kenan's graph
+    kenan ->lgerthoffer;
     kenan -> moe;
     kenan -> baggins;
     kenan -> mbernard;
@@ -419,7 +427,7 @@ digraph EpiFamily {
     //Donia's graph
       donia ->  ikhemir;
     kenan -> malasse;
-    //Malasse's graph	
+    //Malasse's graph
       malasse -> vseux;
     kenan -> roubeau;
     kenan -> charra;
