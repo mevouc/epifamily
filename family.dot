@@ -208,6 +208,7 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
+    iwen -> billy;
     iwen -> othmane;
     iwen -> adhollande;
     iwen -> tcens;
@@ -357,6 +358,7 @@ digraph EpiFamily {
     dav -> skler;
       //Julien's graph
       skler -> rosiek;
+      skler -> billy;
       skler -> skler;
       skler -> skler;
       skler -> govys;
