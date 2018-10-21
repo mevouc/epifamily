@@ -1,6 +1,8 @@
 digraph EpiFamily {
     // list of names
     mev [label="Meven\nCourouble"];
+    mducrocq [label="Michael\nDucroq"];
+    domi [label="Domitille\nBertin"];
     iwen [label="Iwen\nGendrot"];
     cand [label="Candice\nDelaire"];
     seb [label="Sébastien\nBarbier"];
@@ -166,7 +168,6 @@ digraph EpiFamily {
     tnguyen [label="Tran Anh Thu\nNguyen"];
     mfestoc [label="Mylan\nFestoc"];
     smonier [label="Sarah\nNeau-Monier"];
-    mducrocq [label="Michael\nDucrocq"];
     abachelet [label="Anouk\nBachelet"];
     mbernard [label="Marion\nBernard"];
     fpape [label="Florant\nLe Pape"];
@@ -204,7 +205,7 @@ digraph EpiFamily {
     cmalanda [label="Constant\nMalanda"];
 
     /*
-    ** List of patronage links
+    ** List of patronage links :
     */
 
     // Iwen's graph
@@ -236,12 +237,13 @@ digraph EpiFamily {
     iwen -> blaise;
     iwen -> feng;
     iwen -> tim;
-    //Tim's graph
+      // Tim's graph
       tim -> villain;
       tim -> meng;
       tim -> pat;
+      tim -> mducrocq;
     iwen -> barre;
-    //Guillaume's graph
+      // Guillaume's graph
       barre -> pham;
       barre -> schloesing;
     iwen -> ferd
@@ -249,6 +251,7 @@ digraph EpiFamily {
       ferd -> moe;
       ferd -> lacombe;
       ferd -> pier;
+      ferd -> smonier;
       ferd -> audr;
       ferd -> anais;
       ferd -> falcoz;
@@ -263,7 +266,8 @@ digraph EpiFamily {
       ferd -> lmasselles;
         lmasselles -> cdevaux;
       ferd -> mchardon;
-      ferd -> smonier;
+      ferd -> domi;
+      ferd -> mducrocq;
     iwen -> doette;
       // Doette's graph
       doette -> maunaury;
@@ -358,14 +362,14 @@ digraph EpiFamily {
     dav -> nic;
     dav -> nolw;
     dav -> skler;
-      //Julien's graph
+      // Julien's graph
       skler -> rosiek;
+      skler -> smonier;
+      skler -> mducrocq;
+      skler -> skler;
       skler -> billy;
-      skler -> skler;
-      skler -> skler;
       skler -> govys;
-      skler -> skler;
-        //Thomas's graph
+        // Thomas's graph
         govys -> roubeau;
           //Maelle's graph
           roubeau -> belley;
@@ -388,7 +392,10 @@ digraph EpiFamily {
     font -> donia;
     font -> vbernard;
     font -> vaginau;
-    //Vaginal's graph
+      // Vaginaux's graph
+      vaginau -> victoria;
+      vaginau -> vpellan;
+      vaginau -> smonier;
       vaginau -> gschuler;
       vaginau -> mducrocq;
     font -> mvidal;
