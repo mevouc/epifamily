@@ -193,7 +193,6 @@ digraph EpiFamily {
       tim -> villain;
       tim -> meng;
       tim -> pat;
-      tim -> qneouze;
     iwen -> barre;
     //Guillaume's graph
       barre -> pham;
@@ -234,6 +233,7 @@ digraph EpiFamily {
     iwen -> navarro;
     iwen -> acoudret;
     	acoudret -> mhuvelle;
+    iwen -> qneouze;
 
     // David's graph
     dav -> flick;
