@@ -7,6 +7,7 @@ digraph EpiFamily
     iwen [label="Iwen\nGendrot"];
     cand [label="Candice\nDelaire"];
     cmalanda [label="Constant\nMalanda"];
+    vdan [label="Victor\nDané"];
     seb [label="Sébastien\nBarbier"];
     anth [label="Anthony\nMousset"];
     salo [label="Salomé\nDesauty"];
@@ -70,6 +71,7 @@ digraph EpiFamily
     bossut [label="Alexandre\nBossut-Iasry"];
     jean [label="Jean\nVerhaeghe"];
     jsainctavit [label="Jean\nSainctavit"];
+    pam [label="Pierre\nMegalli"];
     sabri [label="Sabri\nDounnez"];
     verjus [label="Hugo\nVerjus"];
     galbert [label="Tom\nGalbert"];
@@ -89,6 +91,8 @@ digraph EpiFamily
     skler [label="Julien\nSkler"];
     rosiek [label ="Hugo\nRosiek"];
     vhenry [label ="Valentin\nHenry"];
+    zhan [label="Anthony\nZhang"];
+    zak [label="Zakaria\nChaouki"];
     malasse [label ="Juliette\nMalassé"];
     govys [label ="Thomas\nGovys"];
     roubeau [label="Maëlle\nRoubeau"];
@@ -147,6 +151,7 @@ digraph EpiFamily
     smonier [label="Sarah\nNeau-Monier"];
     jsprintz [label="Gwendal\nLandrein"];
     mgouet [label="Maxime\nGouet"];
+    del [label="Maxime\nDelcourt"];
     lrabier [label="Lukas\nRabier"];
     saeed [label="Sara\nSaeed"];
     satan [label="Fabien\nTessier"];
@@ -177,6 +182,7 @@ digraph EpiFamily
     ydinia [label="Youssef\nBouarfa Dinia"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
     adhollande [label="Aurélien\nDhollande"];
+    alex [label="Alex\nGuya"];
     azouz [label="Alex\nZouz"];
     abachelet [label="Anouk\nBachelet"];
     mhau [label="Mailys\nHau"];
@@ -349,6 +355,9 @@ digraph EpiFamily
         samy -> tsadoune;
         samy -> pviallet;
         samy -> cmalanda;
+          // Constant's graph
+          cmalanda -> vdan;
+	  cmalanda -> alex;
         samy -> tome;
 	  // Tome-Eliott's graph
 	  tome -> aparou;
@@ -361,6 +370,7 @@ digraph EpiFamily
             mschmidt -> cnader;
 	    mschmidt -> fpape;
             mschmidt -> jhoupert;
+	    mschmidt -> del;
             mschmidt -> ahoupert;
             mschmidt -> eubogi;
             mschmidt -> qgosselet;
@@ -411,6 +421,8 @@ digraph EpiFamily
     font -> mvidal;
       // Matthieu Vidal's graph
       mvidal -> jsainctavit;
+        // Jean's graph
+        jsainctavit -> pam;
       mvidal -> amorvan;
       mvidal -> clevesque;
       mvidal -> tsadoune;
@@ -434,6 +446,7 @@ digraph EpiFamily
       // Valentin Henry's graph
       vhenry -> alevi;
       vhenry -> psoulier;
+      vhenry -> zhan;
       vhenry -> fpape;
     font -> slemoigne;
       // Sarah LeMoigne's graph
