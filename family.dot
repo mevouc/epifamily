@@ -210,6 +210,7 @@ digraph EpiFamily
     amorvan [label="Adrien\nMorvan"];
     lbellanger [label="Liam\nBellanger"];
     lgerthoffer [label="Lucile\nGerthoffer"];
+    odin [label="Odin\nServely"];
 
     /*
     ** List of patronage links :
@@ -278,6 +279,10 @@ digraph EpiFamily
         lmasselles -> cdevaux;
       ferd -> mchardon;
       ferd -> domi;
+        // Domitille's graph
+	domi -> odin;
+	domi -> smonier;
+	domi -> victoria;
       ferd -> mducrocq;
     iwen -> doette;
       // Doette's graph
