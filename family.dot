@@ -1,16 +1,18 @@
-digraph EpiFamily {
-    // list of names
+digraph EpiFamily
+{
+    // List of names :
     mev [label="Meven\nCourouble"];
     mducrocq [label="Michael\nDucroq"];
     domi [label="Domitille\nBertin"];
     iwen [label="Iwen\nGendrot"];
     cand [label="Candice\nDelaire"];
+    cmalanda [label="Constant\nMalanda"];
     seb [label="Sébastien\nBarbier"];
     anth [label="Anthony\nMousset"];
     salo [label="Salomé\nDesauty"];
     geof [label="Geoffrey\nBossut"];
     lucas [label="Lucas\nMouminoux"];
-    dana [label="Danaé\nMarmai"];
+    dana [label="Danaé\nMarmaï"];
     cel [label="Céline\nPierron"];
     gaet [label="Gaëtan\nPusel"];
     ferd [label="Ferdinand\nLemaire"];
@@ -64,10 +66,10 @@ digraph EpiFamily {
     samy [label="Samy\nHussaein"];
     vanvliet [label="Alex\nVan-Vliet"];
     tome [label="Tom-Eliott\nHerfray"];
-    berard [label= "Alexandre\nBérard"];
     pag [label="Pierre-André\nGirompaire"];
     bossut [label="Alexandre\nBossut-Iasry"];
     jean [label="Jean\nVerhaeghe"];
+    jsainctavit [label="Jean\nSainctavit"];
     sabri [label="Sabri\nDounnez"];
     verjus [label="Hugo\nVerjus"];
     galbert [label="Tom\nGalbert"];
@@ -142,6 +144,7 @@ digraph EpiFamily {
     alevi [label="Arielle\nLevi"];
     vseux [label="Valentin\nSeux"];
     slemoigne [label="Sarah\nLe Moigne"];
+    smonier [label="Sarah\nNeau-Monier"];
     jsprintz [label="Gwendal\nLandrein"];
     mgouet [label="Maxime\nGouet"];
     lrabier [label="Lukas\nRabier"];
@@ -167,8 +170,6 @@ digraph EpiFamily {
     pkong [label="Paul\nKong"];
     tnguyen [label="Tran Anh Thu\nNguyen"];
     mfestoc [label="Mylan\nFestoc"];
-    smonier [label="Sarah\nNeau-Monier"];
-    abachelet [label="Anouk\nBachelet"];
     mbernard [label="Marion\nBernard"];
     fpape [label="Florant\nLe Pape"];
     psoulier [label="Paul\nMurelli-Soullier"];
@@ -176,7 +177,13 @@ digraph EpiFamily {
     ydinia [label="Youssef\nBouarfa Dinia"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
     adhollande [label="Aurélien\nDhollande"];
+    azouz [label="Alex\nZouz"];
+    abachelet [label="Anouk\nBachelet"];
     mhau [label="Mailys\nHau"];
+    berard [label="Alexandre\nBérard"];
+    tecoffet [label="Tugdual\nEcoffet"];
+    gschuler [label="Gaetan\nSchuler"];
+    clevesque [label="Clotilde\nLevesque"];
     alafargue [label="Anton\nLafargue"];
     ikhilali [label="Inès\nEl Khilali"];
     mwenger [label="Marlon\nWenger"];
@@ -192,17 +199,11 @@ digraph EpiFamily {
     ybonnet [label="Yann\nBonnet"];
     pviallet [label="Paul\nViallet"];
     mstombellini [label="Matthieu\nStombellini"];
-    tecoffet [label="Tugdual\nEcoffet"];
-    gschuler [label="Gaetan\nSchuler"];
-    clevesque [label="Clotilde\nLevesque"];
     ahoche [label="Arthur\nHoche"];
     tsirvent [label="Thomas\nSirvent"];
-    azouz [label="Alex\nZouz"];
-    jsainctavit [label="Jean\nSainctavit"];
     amorvan [label="Adrien\nMorvan"];
     lbellanger [label="Liam\nBellanger"];
     lgerthoffer [label="Lucile\nGerthoffer"];
-    cmalanda [label="Constant\nMalanda"];
 
     /*
     ** List of patronage links :
@@ -210,17 +211,20 @@ digraph EpiFamily {
 
     // Iwen's graph
     iwen -> ruter [color="gold"];
-    iwen -> billy;
-    iwen -> othmane;
     iwen -> adhollande;
     iwen -> tcens;
-    iwen -> jblapeyre;
+    iwen -> billy;
     iwen -> lacombe;
+      // Cloé's graph
       lacombe -> vcollod;
       lacombe -> ikhemir;
+    iwen -> jblapeyre;
+    iwen -> othmane;
     iwen -> gdiawara;
+      // Gdiawara's graph
       gdiawara -> mfestoc;
     iwen -> ikhemir;
+      // Ikhemir's graph
       ikhemir -> lacombe;
     iwen -> gardebois;
     iwen -> pag;
@@ -257,13 +261,14 @@ digraph EpiFamily {
       ferd -> falcoz;
       ferd -> degroote;
       ferd -> mgouet;
-      ferd -> eleroy;
         // Maxime Gouet's graph
         mgouet -> lrabier;
+      ferd -> eleroy;
       ferd -> jsprintz;
         // Gwendal Landrein's graph
         jsprintz -> ydinia
       ferd -> lmasselles;
+        // Lea's graph
         lmasselles -> cdevaux;
       ferd -> mchardon;
       ferd -> domi;
@@ -276,28 +281,28 @@ digraph EpiFamily {
       garreau -> billy;
       garreau -> seb;
       garreau -> kluyt;
-      //Arthur Kluytmans's graph
+        // Arthur Kluytmans's graph
         kluyt -> cgorgeon;
         kluyt -> lcardao;
         kluyt -> mlecomte;
-	//Malo Lecomte's graph
+          // Malo Lecomte's graph
           mlecomte -> alafargue;
           mlecomte -> ikhilali;
           mlecomte -> cgorgeon;
           mlecomte -> mwenger;
           mlecomte -> tsirvent;
-	  mlecomte -> tsadoune;
-	  //Thanina's graph
-	    tsadoune -> mstombellini;
-            tsadoune -> azouz;
-        kluyt -> mhan;
-          mhan -> gbjarstal;
+          mlecomte -> tsadoune;
+            // Thanina's graph
+            tsadoune -> mstombellini;
         kluyt -> mschoose;
         kluyt -> pmade;
         kluyt -> tlepage;
         kluyt -> vhacquard;
         kluyt -> vthiron;
+        kluyt -> mhan;
+          // Maya's graph
           mhan -> abachelet;
+          mhan -> gbjarstal;
       garreau -> yang;
     iwen -> navarro;
     iwen -> acoudret;
@@ -308,10 +313,9 @@ digraph EpiFamily {
 
     // David's graph
     dav -> flick;
-      flick -> mhau;
       // Louise's graph
       flick -> noailles;
-        //Louis Noailles's graph
+        // Louis Noailles's graph
         noailles -> jiyari;
         noailles -> ichaumont;
         noailles -> dmadro;
@@ -319,6 +323,7 @@ digraph EpiFamily {
         noailles -> tz;
         noailles -> zeitoun;
         noailles -> ripoll;
+	  // Ripol's graph
 	  ripoll -> erachlin;
 	  ripoll -> jwirth;
         noailles -> manceau;
@@ -327,30 +332,33 @@ digraph EpiFamily {
         noailles -> lacombe;
         noailles -> qrondel;
       flick -> sands;
+        // Sands's graph
         sands -> zlayadi;
       flick -> pensivy;
       flick -> zabat;
+      flick -> mhau;
+      flick -> ybonnet;
       flick -> radic;
-      flick -> ybonnet,
-        //Radic's graph
+        // Radic's graph
         radic -> souillac;
         radic -> jrange;
         radic -> zlayadi;
       flick -> samy;
         // Samy's graph
         samy -> vanvliet;
-        samy -> pviallet;
         samy -> tsadoune;
+        samy -> pviallet;
+        samy -> cmalanda;
         samy -> tome;
-	samy -> cmalanda;
-	  //Tom-Eliott's graph
+	  // Tome-Eliott's graph
 	  tome -> aparou;
-	    //Albin's graph
-            aparou -> tecoffet;
+	    // Albin's graph
+	    aparou -> tecoffet;
 	  tome -> berard;
 	  tome -> mschmidt;
-	    mschmidt -> cnader;
-            mschmidt -> lbellanger;
+	    // Martin's graph
+	    mschmidt -> lbellanger;
+            mschmidt -> cnader;
 	    mschmidt -> fpape;
             mschmidt -> jhoupert;
             mschmidt -> ahoupert;
@@ -371,7 +379,7 @@ digraph EpiFamily {
       skler -> govys;
         // Thomas's graph
         govys -> roubeau;
-          //Maelle's graph
+          // Maelle's graph
           roubeau -> belley;
     dav -> vpellan;
     dav -> acoudret;
@@ -379,18 +387,20 @@ digraph EpiFamily {
     // Adrien's graph
     hellec -> hayard;
     hellec -> ruiz;
+      // Ruiz's graph
       ruiz -> othmane;
+        // Othmane's graph
         othmane -> mferdinand;
         othmane -> mgemayel;
-
       ruiz -> pkong;
+        // Pkong's graph
       	pkong -> tnguyen;
     hellec -> hanot;
 
-    //Quentin's graph
+    // Quentin's graph
     font -> majed;
-    font -> donia;
     font -> vbernard;
+    font -> donia;
     font -> vaginau;
       // Vaginaux's graph
       vaginau -> victoria;
@@ -399,11 +409,13 @@ digraph EpiFamily {
       vaginau -> gschuler;
       vaginau -> mducrocq;
     font -> mvidal;
-    //MVidal's graph
-      mvidal -> clevesque;
-      mvidal -> amorvan;
-      mvidal -> tsadoune;
+      // Matthieu Vidal's graph
       mvidal -> jsainctavit;
+      mvidal -> amorvan;
+      mvidal -> clevesque;
+      mvidal -> tsadoune;
+        // Thanina's graph
+        tsadoune -> azouz;
     font -> dana
       // Danae's graph
       dana -> cel;
@@ -411,7 +423,7 @@ digraph EpiFamily {
     font -> laroche;
     font -> baggins;
     font -> fang;
-    //Clément's graph
+      // Clément's graph
       fang -> hu;
       fang -> tristan;
     font -> horiot;
@@ -419,38 +431,36 @@ digraph EpiFamily {
     font -> gallois;
     font -> griffhey;
     font -> vhenry;
-    //Valentin Henry's graph
-     vhenry -> alevi;
-     vhenry -> psoulier;
-     vhenry -> fpape;
+      // Valentin Henry's graph
+      vhenry -> alevi;
+      vhenry -> psoulier;
+      vhenry -> fpape;
     font -> slemoigne;
-    //Sarah LeMoigne's graph
+      // Sarah LeMoigne's graph
       slemoigne -> ripoll;
       slemoigne -> saeed;
 
-
     // Kenan's graph
-    kenan ->lgerthoffer;
     kenan -> moe;
-    kenan -> baggins;
     kenan -> mbernard;
+    kenan -> baggins;
     kenan -> donia;
-    //Donia's graph
+      // Donia's graph
       donia ->  ikhemir;
     kenan -> malasse;
-    //Malasse's graph
+      // Malasse's graph
       malasse -> vseux;
     kenan -> roubeau;
     kenan -> charra;
     kenan -> apluquet;
     kenan -> nora;
     kenan -> tertre;
-    // Tertre's graph
+      // Tertre's graph
       tertre -> mercier;
       tertre -> noailles;
       tertre -> kluyt;
       tertre -> victoria;
-      //Victoria's graph
+        // Victoria's graph
 	victoria -> mhan;
 	victoria -> mlecomte;
       tertre -> memeint;
@@ -464,13 +474,14 @@ digraph EpiFamily {
       tertre -> shemtov;
       tertre -> siou;
       tertre -> vanvoorder;
-      // Vandevoorde's graph
+        // Vandevoorde's graph
         vanvoorder -> bibas;
         vanvoorder -> houve;
       tertre -> rondier;
       tertre -> pascal;
     kenan -> attie;
     kenan -> barbarat;
+    kenan -> lgerthoffer;
 
     // Meven's graph
     mev -> cand;
@@ -486,12 +497,12 @@ digraph EpiFamily {
     mev -> lucas;
     mev -> moe;
 
-  /*
-  ** List of special links
-  */
-  { // love links, please use [dir=none color="hotpink"] attribute
-    edge [dir=none color="hotpink"]
-    satan -> moe
-    dav -> baggins
-  }
+    /*
+    ** List of special links
+    */
+    { // love links, please use [dir=none color="hotpink"] attribute
+      edge [dir=none color="hotpink"]
+      satan -> moe
+      dav -> baggins
+    }
 }
