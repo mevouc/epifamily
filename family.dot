@@ -211,6 +211,7 @@ digraph EpiFamily
     zeitoun [label="Jérémie\nZeitoun"];
     zhan [label="Anthony\nZhang"];
     zlayadi [label="Ziane\nLayadi"];
+    mvanco [label="MathisVancoppenolle\n"];
 
     /*
     ** List of patronage links :
@@ -369,6 +370,7 @@ digraph EpiFamily
 	    // Albin's graph
 	    aparou -> tecoffet;
 	  tome -> berard;
+	  tome -> mvanco;
 	  tome -> mschmidt;
 	    // Martin's graph
 	    mschmidt -> lbellanger;
