@@ -59,6 +59,7 @@ digraph EpiFamily
     ferd [label="Ferdinand\nLemaire"];
     flick [label="Louise\nFlick"];
     font [label="Quentin\nFontvielle"];
+    foucart [label="Pierre Foucart"];
     fpape [label="Florant\nLe Pape"];
     gaet [label="Gaëtan\nPusel"];
     galbert [label="Tom\nGalbert"];
@@ -253,6 +254,7 @@ digraph EpiFamily
       tim -> meng;
       tim -> pat;
       tim -> mducrocq;
+      tim -> foucart;
     iwen -> barre;
       // Guillaume's graph
       barre -> pham;
