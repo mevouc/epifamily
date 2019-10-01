@@ -32,6 +32,7 @@ digraph EpiFamily
     billy [label="Claire\nBilly"];
     blaise [label="Blaise\nCarnevillier"];
     bossut [label="Alexandre\nBossut-Iasry"];
+    briolant [label="Quentin\nBriolant"]
     cand [label="Candice\nDelaire"];
     cdevaux [label="Caroline\nDevaux"];
     cecilon [label="Florian\nCecilon"];
@@ -371,6 +372,7 @@ digraph EpiFamily
 	    // Albin's graph
 	    aparou -> tecoffet;
 	  tome -> berard;
+	  tome -> briolant;
 	  tome -> mschmidt;
 	    // Martin's graph
 	    mschmidt -> lbellanger;
