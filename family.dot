@@ -31,6 +31,7 @@ digraph EpiFamily
     bibas [label="Jonathan\nBibas"];
     billy [label="Claire\nBilly"];
     blaise [label="Blaise\nCarnevillier"];
+    bourdet [label="Baptiste\nBourdet"];
     bossut [label="Alexandre\nBossut-Iasry"];
     cand [label="Candice\nDelaire"];
     cdevaux [label="Caroline\nDevaux"];
@@ -134,6 +135,7 @@ digraph EpiFamily
     mwenger [label="Marlon\nWenger"];
     nalbandian [label="Samy\nNalbandian"];
     navarro [label="Hadrien\nNavarro"];
+    neph [label="Néphélie\nLambrinidis"];
     nic [label="Nicolas\nMoutaud"];
     noailles [label="Louis\nNoailles"];
     nolw [label="Nolwenn\nGentric"];
@@ -371,6 +373,8 @@ digraph EpiFamily
 	    // Albin's graph
 	    aparou -> tecoffet;
 	  tome -> berard;
+	  tome -> bourdet;
+	  tome -> neph;
 	  tome -> mschmidt;
 	    // Martin's graph
 	    mschmidt -> lbellanger;
