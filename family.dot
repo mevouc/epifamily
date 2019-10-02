@@ -33,6 +33,7 @@ digraph EpiFamily
     blaise [label="Blaise\nCarnevillier"];
     bourdet [label="Baptiste\nBourdet"];
     bossut [label="Alexandre\nBossut-Iasry"];
+    briolant [label="Quentin\nBriolant"]
     cand [label="Candice\nDelaire"];
     cdevaux [label="Caroline\nDevaux"];
     cecilon [label="Florian\nCecilon"];
@@ -373,6 +374,7 @@ digraph EpiFamily
 	    // Albin's graph
 	    aparou -> tecoffet;
 	  tome -> berard;
+	  tome -> briolant;
 	  tome -> bourdet;
 	  tome -> neph;
 	  tome -> mschmidt;
