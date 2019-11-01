@@ -16,6 +16,7 @@ digraph EpiFamily
     anth [label="Anthony\nMousset"];
     aparou [label="Albin\nParou"];
     apluquet [label="Adèle\nPluquet"];
+    ario [label="Antoine\nRio"];
     attie [label="Mahé\nAttié"];
     audr [label="Audran\nDoublet"];
     azouz [label="Alex\nZouz"];
@@ -86,6 +87,7 @@ digraph EpiFamily
     ikhemir [label="Ines\nKhemir"];
     ikhilali [label="Inès\nEl Khilali"];
     iwen [label="Iwen\nGendrot"];
+    jblancho [label="Julien\nBlancho"];
     jblapeyre [label="Jean-Baptiste\nLapeyre"];
     jean [label="Jean\nVerhaeghe"];
     jhoupert [label="Jocelyn\nHoupert"];
@@ -190,6 +192,7 @@ digraph EpiFamily
     tome [label="Tom-Eliott\nHerfray"];
     tristan [label = "Tristan\nMartin"];
     tsadoune [label="Thanina\nSadoune"];
+    tshanbari [label="Thuraya\nShanbari"];
     tsirvent [label="Thomas\nSirvent"];
     tz [label="Yohan\nTancrez"];
     vaginau [label="Arthur\nVuagniaux"];
@@ -198,6 +201,7 @@ digraph EpiFamily
     vatble [label="Mathis\nVatble"];
     vbernard [label="Valentine\nBernard"];
     vcollod [label="Victor\nCollod"];
+    vcoudert [label="Virgile\nCoudert"];
     vdan [label="Victor\nDané"];
     verjus [label="Hugo\nVerjus"];
     vhacquard [label="Victor\nHacquard"];
@@ -318,6 +322,9 @@ digraph EpiFamily
         kluyt -> mhan;
           // Maya's graph
           mhan -> abachelet;
+	    abachelet -> tshanbari;
+	    abachelet -> vcoudert;
+	    abachelet -> ario;
           mhan -> gbjarstal;
       garreau -> yang;
     iwen -> navarro;
@@ -462,6 +469,7 @@ digraph EpiFamily
       vhenry -> zhan;
       vhenry -> zak;
       vhenry -> fpape;
+      vhenry -> jblancho;
     font -> slemoigne;
       // Sarah LeMoigne's graph
       slemoigne -> ripoll;
